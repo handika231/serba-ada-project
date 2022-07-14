@@ -1,0 +1,390 @@
+{
+  "version": 1,
+  "queryString": [],
+  "response": {
+    "count": 9,
+    "results": [
+      {
+        "category_id": 1,
+        "title": "Teknologi & Gadget",
+        "slug": "teknologi-gadget",
+        "position_order": 1,
+        "category_path": ["teknologi-gadget"],
+        "category_path_id": [0, 1],
+        "icon": "https://assets.serbada.com/mobile/icon-apps/ic_orange_teknologi.png",
+        "sub_categories": [
+          {
+            "id": 2,
+            "pid": 1,
+            "path": "0,1,",
+            "title": "Smartphone",
+            "slug": "smartphone",
+            "display_order": 1,
+            "category_path": ["teknologi-gadget", "smartphone"],
+            "category_path_id": ["0", "1", "2"],
+            "sub_categories": []
+          },
+          {
+            "id": 3,
+            "pid": 1,
+            "path": "0,1,",
+            "title": "Gadget",
+            "slug": "gadget",
+            "display_order": 2,
+            "category_path": ["teknologi-gadget", "gadget"],
+            "category_path_id": ["0", "1", "3"],
+            "sub_categories": []
+          },
+          {
+            "id": 4,
+            "pid": 1,
+            "path": "0,1,",
+            "title": "Laptop & Tablet",
+            "slug": "laptop-tablet",
+            "display_order": 3,
+            "category_path": ["teknologi-gadget", "laptop-tablet"],
+            "category_path_id": ["0", "1", "4"],
+            "sub_categories": []
+          },
+          {
+            "id": 5,
+            "pid": 1,
+            "path": "0,1,",
+            "title": "Multimedia",
+            "slug": "multimedia",
+            "display_order": 4,
+            "category_path": ["teknologi-gadget", "multimedia"],
+            "category_path_id": ["0", "1", "5"],
+            "sub_categories": []
+          },
+          {
+            "id": 6,
+            "pid": 1,
+            "path": "0,1,",
+            "title": "Lain Lain",
+            "slug": "lain-lain",
+            "display_order": 5,
+            "category_path": ["teknologi-gadget", "lain-lain"],
+            "category_path_id": ["0", "1", "6"],
+            "sub_categories": []
+          }
+        ]
+      },
+      {
+        "category_id": 7,
+        "title": "Fashion & Apparel",
+        "slug": "fashion-apparel",
+        "position_order": 2,
+        "category_path": ["fashion-apparel"],
+        "category_path_id": [0, 7],
+        "icon": "https://assets.serbada.com/mobile/icon-apps/ic_orange_fashion.png",
+        "sub_categories": [
+          {
+            "id": 8,
+            "pid": 7,
+            "path": "0,7,",
+            "title": "Pria",
+            "slug": "pria",
+            "display_order": 1,
+            "category_path": ["fashion-apparel", "pria"],
+            "category_path_id": ["0", "7", "8"],
+            "sub_categories": []
+          },
+          {
+            "id": 9,
+            "pid": 7,
+            "path": "0,7,",
+            "title": "Wanita",
+            "slug": "wanita",
+            "display_order": 2,
+            "category_path": ["fashion-apparel", "wanita"],
+            "category_path_id": ["0", "7", "9"],
+            "sub_categories": []
+          },
+          {
+            "id": 10,
+            "pid": 7,
+            "path": "0,7,",
+            "title": "Bayi & Anak",
+            "slug": "bayi-anak",
+            "display_order": 3,
+            "category_path": ["fashion-apparel", "bayi-anak"],
+            "category_path_id": ["0", "7", "10"],
+            "sub_categories": []
+          },
+          {
+            "id": 11,
+            "pid": 7,
+            "path": "0,7,",
+            "title": "Perhiasan",
+            "slug": "perhiasan",
+            "display_order": 4,
+            "category_path": ["fashion-apparel", "perhiasan"],
+            "category_path_id": ["0", "7", "11"],
+            "sub_categories": []
+          },
+          {
+            "id": 12,
+            "pid": 7,
+            "path": "0,7,",
+            "title": "Lain Lain",
+            "slug": "lain-lain",
+            "display_order": 5,
+            "category_path": ["fashion-apparel", "lain-lain"],
+            "category_path_id": ["0", "7", "12"],
+            "sub_categories": []
+          }
+        ]
+      },
+      {
+        "category_id": 13,
+        "title": "Perlengkapan Rumah",
+        "slug": "perlengkapan-rumah",
+        "position_order": 3,
+        "category_path": ["perlengkapan-rumah"],
+        "category_path_id": [0, 13],
+        "icon": "https://assets.serbada.com/mobile/icon-apps/ic_oranga_perlengkapan_rumah.png",
+        "sub_categories": [
+          {
+            "id": 14,
+            "pid": 13,
+            "path": "0,13,",
+            "title": "Furniture",
+            "slug": "furniture",
+            "display_order": 1,
+            "category_path": ["perlengkapan-rumah", "furniture"],
+            "category_path_id": ["0", "13", "14"],
+            "sub_categories": []
+          },
+          {
+            "id": 15,
+            "pid": 13,
+            "path": "0,13,",
+            "title": "Elektronik",
+            "slug": "elektronik",
+            "display_order": 2,
+            "category_path": ["perlengkapan-rumah", "elektronik"],
+            "category_path_id": ["0", "13", "15"],
+            "sub_categories": []
+          },
+          {
+            "id": 16,
+            "pid": 13,
+            "path": "0,13,",
+            "title": "Keamanan",
+            "slug": "keamanan",
+            "display_order": 3,
+            "category_path": ["perlengkapan-rumah", "keamanan"],
+            "category_path_id": ["0", "13", "16"],
+            "sub_categories": []
+          },
+          {
+            "id": 17,
+            "pid": 13,
+            "path": "0,13,",
+            "title": "Dekorasi",
+            "slug": "dekorasi",
+            "display_order": 4,
+            "category_path": ["perlengkapan-rumah", "dekorasi"],
+            "category_path_id": ["0", "13", "17"],
+            "sub_categories": []
+          },
+          {
+            "id": 18,
+            "pid": 13,
+            "path": "0,13,",
+            "title": "Lain Lain",
+            "slug": "lain-lain",
+            "display_order": 5,
+            "category_path": ["perlengkapan-rumah", "lain-lain"],
+            "category_path_id": ["0", "13", "18"],
+            "sub_categories": []
+          },
+          {
+            "id": 31,
+            "pid": 13,
+            "path": "0,13,",
+            "title": "Funiture",
+            "slug": "funiture",
+            "display_order": 6,
+            "category_path": ["perlengkapan-rumah", "funiture"],
+            "category_path_id": ["0", "13", "31"],
+            "sub_categories": []
+          }
+        ]
+      },
+      {
+        "category_id": 19,
+        "title": "Buku",
+        "slug": "hobi-gaya-hidup",
+        "position_order": 4,
+        "category_path": ["hobi-gaya-hidup"],
+        "category_path_id": [0, 19],
+        "icon": "https://assets.serbada.com/mobile/icon-apps/ic_orange_buku.png",
+        "sub_categories": [
+          {
+            "id": 20,
+            "pid": 19,
+            "path": "0,19,",
+            "title": "Koleksi",
+            "slug": "koleksi",
+            "display_order": 1,
+            "category_path": ["hobi-gaya-hidup", "koleksi"],
+            "category_path_id": ["0", "19", "20"],
+            "sub_categories": []
+          },
+          {
+            "id": 21,
+            "pid": 19,
+            "path": "0,19,",
+            "title": "Kesehatan",
+            "slug": "kesehatan",
+            "display_order": 2,
+            "category_path": ["hobi-gaya-hidup", "kesehatan"],
+            "category_path_id": ["0", "19", "21"],
+            "sub_categories": []
+          },
+          {
+            "id": 22,
+            "pid": 19,
+            "path": "0,19,",
+            "title": "Kecantikan",
+            "slug": "kecantikan",
+            "display_order": 3,
+            "category_path": ["hobi-gaya-hidup", "kecantikan"],
+            "category_path_id": ["0", "19", "22"],
+            "sub_categories": []
+          },
+          {
+            "id": 23,
+            "pid": 19,
+            "path": "0,19,",
+            "title": "Aksesoris",
+            "slug": "aksesoris",
+            "display_order": 4,
+            "category_path": ["hobi-gaya-hidup", "aksesoris"],
+            "category_path_id": ["0", "19", "23"],
+            "sub_categories": []
+          },
+          {
+            "id": 24,
+            "pid": 19,
+            "path": "0,19,",
+            "title": "Lain Lain",
+            "slug": "lain-lain",
+            "display_order": 5,
+            "category_path": ["hobi-gaya-hidup", "lain-lain"],
+            "category_path_id": ["0", "19", "24"],
+            "sub_categories": []
+          }
+        ]
+      },
+      {
+        "category_id": 25,
+        "title": "Hiburan & Olahraga",
+        "slug": "hiburan-olahraga",
+        "position_order": 5,
+        "category_path": ["hiburan-olahraga"],
+        "category_path_id": [0, 25],
+        "icon": "https://assets.serbada.com/mobile/icon-apps/ic_orange_hiburan.png",
+        "sub_categories": [
+          {
+            "id": 26,
+            "pid": 25,
+            "path": "0,25,",
+            "title": "Outdoor",
+            "slug": "outdoor",
+            "display_order": 1,
+            "category_path": ["hiburan-olahraga", "outdoor"],
+            "category_path_id": ["0", "25", "26"],
+            "sub_categories": []
+          },
+          {
+            "id": 27,
+            "pid": 25,
+            "path": "0,25,",
+            "title": "Dining",
+            "slug": "dining",
+            "display_order": 2,
+            "category_path": ["hiburan-olahraga", "dining"],
+            "category_path_id": ["0", "25", "27"],
+            "sub_categories": []
+          },
+          {
+            "id": 28,
+            "pid": 25,
+            "path": "0,25,",
+            "title": "Makanan",
+            "slug": "makanan",
+            "display_order": 3,
+            "category_path": ["hiburan-olahraga", "makanan"],
+            "category_path_id": ["0", "25", "28"],
+            "sub_categories": []
+          },
+          {
+            "id": 29,
+            "pid": 25,
+            "path": "0,25",
+            "title": "Minuman",
+            "slug": "minuman",
+            "display_order": 6,
+            "category_path": ["hiburan-olahraga", "minuman"],
+            "category_path_id": ["0", "25", "29"],
+            "sub_categories": []
+          },
+          {
+            "id": 30,
+            "pid": 25,
+            "path": "0,25,",
+            "title": "Voucher Diskon",
+            "slug": "voucher-diskon",
+            "display_order": 7,
+            "category_path": ["hiburan-olahraga", "voucher-diskon"],
+            "category_path_id": ["0", "25", "30"],
+            "sub_categories": []
+          }
+        ]
+      },
+      {
+        "category_id": 32,
+        "title": "Ibu & Anak",
+        "slug": "ibu-anak",
+        "position_order": 6,
+        "category_path": ["ibu-anak"],
+        "category_path_id": [0, 32],
+        "icon": "https://assets.serbada.com/mobile/icon-apps/ic_orange_ibu_anak.png",
+        "sub_categories": []
+      },
+      {
+        "category_id": 33,
+        "title": "Kesehatan & Kecantikan",
+        "slug": "kesehatan-kecantikan",
+        "position_order": 7,
+        "category_path": ["kesehatan-kecantikan"],
+        "category_path_id": [0, 33],
+        "icon": "https://assets.serbada.com/mobile/icon-apps/ic_orange_kesehatan.png",
+        "sub_categories": []
+      },
+      {
+        "category_id": 34,
+        "title": "Alat Tulis Kantor",
+        "slug": "alat-tulis-kantor",
+        "position_order": 8,
+        "category_path": ["alat-tulis-kantor"],
+        "category_path_id": [0, 34],
+        "icon": "https://assets.serbada.com/mobile/icon-apps/ic_orange_atk.png",
+        "sub_categories": []
+      },
+      {
+        "category_id": 35,
+        "title": "Makanan & Minuman",
+        "slug": "makanan-minuman",
+        "position_order": 9,
+        "category_path": ["makanan-minuman"],
+        "category_path_id": [0, 35],
+        "icon": "https://assets.serbada.com/mobile/icon-apps/ic_orange_makanan.png",
+        "sub_categories": []
+      }
+    ]
+  }
+}

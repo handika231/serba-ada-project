@@ -1,10 +1,8 @@
-import 'dart:convert';
-import 'dart:developer';
+import 'package:dio/dio.dart';
 import 'package:serbada/core/util/log.dart';
 
 import '../flutter_no_sql.dart';
 import 'base_url.dart';
-import 'package:dio/dio.dart';
 
 class CategoryApi {
   static String categoryUrl = 'category';

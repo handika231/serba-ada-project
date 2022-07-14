@@ -5,16 +5,17 @@ import '../../theme/theme.dart';
 class HomeCategory extends StatelessWidget {
   // final String imageUrl;
   final String name;
-
+  final String imageUrl;
   const HomeCategory({
-    // this.imageUrl,
+    required this.imageUrl,
     required this.name,
   });
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
+    return Container(
       width: 70,
+      margin: const EdgeInsets.only(right: 24),
       // height: 10,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
@@ -28,7 +29,10 @@ class HomeCategory extends StatelessWidget {
               color: AppColors.grayColor,
               borderRadius: BorderRadius.circular(8),
             ),
-            child: Image.asset('assets/images/icon_growth.png'),
+            child: Image.network(
+              imageUrl,
+              fit: BoxFit.contain,
+            ),
           ),
           const SizedBox(
             height: 12,

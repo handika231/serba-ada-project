@@ -24,7 +24,7 @@ class L {
       ..white(bg: true, bold: true)
       ..xterm(17, bg: true)
       ..rgb(r: 0.0, g: 128.8, b: 0.0);
-    print(pen(data.toString() + '\n'));
+    print(pen('$data\n'));
   }
 
   static void success(data) {
@@ -32,7 +32,7 @@ class L {
       //  ..white(bg: true, bold: true)
       //  ..xterm(17, bg: false)
       ..rgb(r: 0.1, g: 255.0, b: 0.4);
-    print(pen(data.toString() + '\n'));
+    print(pen('$data\n'));
   }
 
   static void log(data, {bool track = false}) {
@@ -43,7 +43,7 @@ class L {
       ..white(bg: true, bold: true)
       ..xterm(14, bg: false)
       ..rgb(r: 255.0, g: 0.265, b: 0.00);
-    print(pen('\n' + data.toString() + '\n'));
+    print(pen('\n$data\n'));
   }
 
   static void error(data, {bool track = true}) {
@@ -54,7 +54,7 @@ class L {
       // ..white(bg: true, bold: true)
       ..xterm(17, bg: false)
       ..rgb(r: 255.1, g: 0.0, b: 0.0);
-    print(pen(data.toString() + '\n'));
+    print(pen('$data\n'));
   }
 
   static void warning(data, {bool track = false}) {
@@ -65,7 +65,7 @@ class L {
       // ..white(bg: true, bold: true)
       ..xterm(17, bg: false)
       ..rgb(r: 255.1, g: 0.2, b: 0.4);
-    print(pen(data.toString() + '\n'));
+    print(pen('$data\n'));
   }
 
   static void json(data, {bool track = false}) {
@@ -84,14 +84,14 @@ class L {
     } else {
       return;
     }
-    var prettyString = JsonEncoder.withIndent('  ').convert(object);
+    var prettyString = const JsonEncoder.withIndent('  ').convert(object);
     if (track) _logger.i('L.json');
     var pen = AnsiPen()
       ..white(bg: true, bold: true)
       ..xterm(17, bg: false)
       ..rgb(r: 0.1, g: 255.0, b: 0.4);
-      print(pen(prettyString.toString() + '\n'));
-  //  _printFunction(prettyString, pen);
+    print(pen('$prettyString\n'));
+    //  _printFunction(prettyString, pen);
   }
 
   static void map(Map data, {bool track = true}) {
@@ -99,7 +99,7 @@ class L {
       _logger.v('L.map\n');
       _loggerNoStack.e(data);
     } else {
-      var prettyString = JsonEncoder.withIndent('  ').convert(data);
+      var prettyString = const JsonEncoder.withIndent('  ').convert(data);
       var pen = AnsiPen()
         ..white(bg: true, bold: true)
         ..xterm(17, bg: false)
@@ -112,7 +112,7 @@ class L {
 
   static _printFunction(String prettyString, AnsiPen ansiPen) {
     prettyString.toString().split('\n').forEach((element) {
-      print(ansiPen(element.toString() + '\n'));
+      print(ansiPen('$element\n'));
     });
   }
 }

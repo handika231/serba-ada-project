@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "queryString": {
+    "limit": "int"
+  },
+  "response": {
+    "top": {
+      "count": 3,
+      "page": 1,
+      "limit": "10",
+      "promo_id": "65,70,71",
+      "results": [
+        {
+          "promo_id": 65,
+          "name": "Hiburan dan olahraga",
+          "slug": "buku",
+          "link": "https://www.serbada.com/hiburan-olahraga",
+          "category_path": [""],
+          "category_path_id": ["0", ""],
+          "image": "/2022/05/17/hiburan-dan-olahraga.jpg",
+          "image_desktop": "https://media.serbada.com/attachment/promo/2022/05/17/hiburan-dan-olahraga.jpg",
+          "image_mobile": "https://media.serbada.com/attachment/promo/2022/05/17/small/hiburan-dan-olahraga.jpg",
+          "publish_date": "",
+          "create_date": "2021-10-08T10:19:29",
+          "publish_timestamp": "",
+          "author_id": 14,
+          "author": "Monica",
+          "position": "top",
+          "position_order": 4
+        },
+        {
+          "promo_id": 70,
+          "name": "top banner 1",
+          "slug": "top-banner-1",
+          "link": "https://www.serbada.com/fashion-apparel",
+          "category_path": [""],
+          "category_path_id": ["0", ""],
+          "image": "/2022/05/17/top-banner-1.jpg",
+          "image_desktop": "https://media.serbada.com/attachment/promo/2022/05/17/top-banner-1.jpg",
+          "image_mobile": "https://media.serbada.com/attachment/promo/2022/05/17/small/top-banner-1.jpg",
+          "publish_date": "",
+          "create_date": "2021-10-26T09:41:39",
+          "publish_timestamp": "",
+          "author_id": 16,
+          "author": "kresna",
+          "position": "top",
+          "position_order": 5
+        },
+        {
+          "promo_id": 71,
+          "name": "top banner 2",
+          "slug": "top-banner-2",
+          "link": "https://www.serbada.com/kesehatan-kecantikan",
+          "category_path": [""],
+          "category_path_id": ["0", ""],
+          "image": "/2022/05/17/top-banner-2.jpg",
+          "image_desktop": "https://media.serbada.com/attachment/promo/2022/05/17/top-banner-2.jpg",
+          "image_mobile": "https://media.serbada.com/attachment/promo/2022/05/17/small/top-banner-2.jpg",
+          "publish_date": "",
+          "create_date": "2021-10-26T09:42:09",
+          "publish_timestamp": "",
+          "author_id": 16,
+          "author": "kresna",
+          "position": "top",
+          "position_order": 6
+        }
+      ]
+    },
+    "middletop": {
+      "count": 2,
+      "page": 1,
+      "limit": "10",
+      "promo_id": "68,69",
+      "results": [
+        {
+          "promo_id": 68,
+          "name": "botol anak",
+          "slug": "sepatu-mid-top-banner",
+          "link": "https://www.serbada.com/teknologi-gadget",
+          "category_path": [""],
+          "category_path_id": ["0", ""],
+          "image": "/2022/05/17/botol-anak.jpg",
+          "image_desktop": "https://media.serbada.com/attachment/promo/2022/05/17/botol-anak.jpg",
+          "image_mobile": "https://media.serbada.com/attachment/promo/2022/05/17/small/botol-anak.jpg",
+          "publish_date": "",
+          "create_date": "2021-10-08T14:32:54",
+          "publish_timestamp": "",
+          "author_id": 16,
+          "author": "kresna",
+          "position": "middletop",
+          "position_order": 6
+        },
+        {
+          "promo_id": 69,
+          "name": "Hobi & olahraga",
+          "slug": "1010",
+          "link": "https://www.serbada.com/hobi-gaya-hidup",
+          "category_path": [""],
+          "category_path_id": ["0", ""],
+          "image": "/2022/05/17/hobi-olahraga.jpg",
+          "image_desktop": "https://media.serbada.com/attachment/promo/2022/05/17/hobi-olahraga.jpg",
+          "image_mobile": "https://media.serbada.com/attachment/promo/2022/05/17/small/hobi-olahraga.jpg",
+          "publish_date": "",
+          "create_date": "2021-10-08T14:40:40",
+          "publish_timestamp": "",
+          "author_id": 16,
+          "author": "kresna",
+          "position": "middletop",
+          "position_order": 7
+        }
+      ]
+    },
+    "middle": {
+      "count": 0,
+      "page": 1,
+      "limit": "10",
+      "promo_id": "",
+      "results": []
+    },
+    "bottom": {
+      "count": 1,
+      "page": 1,
+      "limit": "10",
+      "promo_id": "4",
+      "results": [
+        {
+          "promo_id": 4,
+          "name": "Promo bottom banner",
+          "slug": "promo-bottom-banner",
+          "link": "",
+          "category_path": [""],
+          "category_path_id": ["0", ""],
+          "image": "/2018/12/28/promo-bottom-banner.jpg",
+          "image_desktop": "https://media.serbada.com/attachment/promo/2018/12/28/promo-bottom-banner.jpg",
+          "image_mobile": "https://media.serbada.com/attachment/promo/2018/12/28/small/promo-bottom-banner.jpg",
+          "publish_date": "",
+          "create_date": "2018-12-28T20:00:32",
+          "publish_timestamp": "",
+          "author_id": 1,
+          "author": "Admin Serbada",
+          "position": "bottom",
+          "position_order": 1
+        }
+      ]
+    }
+  }
+}

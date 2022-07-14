@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'bottom_navbar.dart';
 import 'core/flutter_no_sql.dart';
 import 'ui/theme/theme.dart';
@@ -25,13 +26,13 @@ class MyApp extends StatelessWidget {
         fontFamily: AppFontName.PoppinsRegular,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(),
+      home: const MyHomePage(),
     );
   }
 }
 
 class MyHomePage extends StatefulWidget {
-  MyHomePage({Key? key}) : super(key: key);
+  const MyHomePage({Key? key}) : super(key: key);
 
   // final String title;
 
