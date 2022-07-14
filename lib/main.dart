@@ -5,7 +5,7 @@ import 'core/flutter_no_sql.dart';
 import 'ui/theme/theme.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
   Future.delayed(const Duration(seconds: 0), () async {
     WidgetsFlutterBinding.ensureInitialized();
     await FlutterNoSql.initFlutter();
@@ -15,6 +15,8 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
@@ -54,10 +56,11 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void next() async {
     Navigator.pushReplacement(
-        context,
-        MaterialPageRoute(
-          builder: (context) => const Navbar(),
-        ));
+      context,
+      MaterialPageRoute(
+        builder: (context) => const Navbar(),
+      ),
+    );
   }
 
   @override

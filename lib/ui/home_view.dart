@@ -300,8 +300,6 @@ class HomeViewState extends State<HomeView> {
                                 future: ProductsApi.getProductsApi(),
                                 builder: (BuildContext context,
                                     AsyncSnapshot snapshot) {
-                                  final products = snapshot.data;
-                                  print(products);
                                   if (snapshot.data == null ||
                                       snapshot.connectionState ==
                                           ConnectionState.waiting) {
@@ -309,6 +307,8 @@ class HomeViewState extends State<HomeView> {
                                       child: CircularProgressIndicator(),
                                     );
                                   } else {
+                                    final result = snapshot.data;
+                                    print(result);
                                     return Column(
                                       crossAxisAlignment:
                                           CrossAxisAlignment.start,

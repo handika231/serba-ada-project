@@ -14,13 +14,8 @@ class ProductsApi {
     dio.options.headers['Accept'] = 'application/json';
     dio.options.headers['Authorization'] =
         'Bearer da39a3ee5e6b4b0d3255bfef95601890afd80709';
-    Response response;
+    Response response = await dio.get(url);
     //get request with dio
-    response = await dio.get(url);
-    if (response.statusCode == 200) {
-      return Products.fromJson(json.decode(response.data));
-    } else {
-      throw Exception('Failed to load products');
-    }
+    return Products.fromJson(json.decode(response.data));
   }
 }
