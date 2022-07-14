@@ -7,6 +7,7 @@ import 'package:serbada/core/api/products_api.dart';
 import 'package:serbada/models/banner/banner.dart' as model;
 import 'package:serbada/models/banner/result.dart';
 import 'package:serbada/models/category/category.dart';
+import 'package:serbada/models/products_model.dart';
 import 'package:serbada/ui/common_widget/header/home_category.dart';
 import 'package:serbada/ui/common_widget/header/home_product.dart';
 import 'package:serbada/ui/theme/theme.dart';
@@ -307,8 +308,9 @@ class HomeViewState extends State<HomeView> {
                                       child: CircularProgressIndicator(),
                                     );
                                   } else {
-                                    final result = snapshot.data;
-                                    print(result);
+                                    List<Results> result =
+                                        snapshot.data.response?.results;
+                                    print(result.runtimeType);
                                     return Column(
                                       crossAxisAlignment:
                                           CrossAxisAlignment.start,
@@ -324,114 +326,139 @@ class HomeViewState extends State<HomeView> {
                                             ),
                                           ),
                                         ),
-                                        Padding(
-                                          padding: const EdgeInsets.all(16.0),
-                                          child: Row(
-                                            children: const [
-                                              Flexible(
-                                                child: HomeProduct(
-                                                    nameProduk: 'Baju',
-                                                    hargaProduk: '220.000'),
-                                              ),
-                                              SizedBox(
-                                                width: 8,
-                                              ),
-                                              Flexible(
-                                                child: HomeProduct(
-                                                    nameProduk: 'Baju',
-                                                    hargaProduk: '220.000'),
-                                              ),
-                                              SizedBox(
-                                                width: 8,
-                                              ),
-                                              // HomeProduct(
-                                              //     nameProduk: 'Celana', hargaProduk: '120.000'),
-                                            ],
+                                        GridView(
+                                          shrinkWrap: true,
+                                          physics:
+                                              const NeverScrollableScrollPhysics(),
+                                          gridDelegate:
+                                              const SliverGridDelegateWithFixedCrossAxisCount(
+                                            crossAxisCount: 2,
+                                            childAspectRatio: 0.8,
+                                            crossAxisSpacing: 16,
+                                            mainAxisSpacing: 16,
                                           ),
+                                          children: result.map((item) {
+                                            // TODO: Mengambil gambar pertama dari gallery
+                                            final image = item.gallery!
+                                                .map((e) => e.urlOriginals)
+                                                .toList()
+                                                .first;
+                                            return HomeProduct(
+                                              imageUrl: image.toString(),
+                                              hargaProduk:
+                                                  item.priceNormal.toString(),
+                                              nameProduk: item.name.toString(),
+                                            );
+                                          }).toList(),
+                                        ),
+                                        // Padding(
+                                        //   padding: const EdgeInsets.all(16.0),
+                                        //   child: Row(
+                                        //     children: const [
+                                        //       Flexible(
+                                        //         child: HomeProduct(
+                                        //             nameProduk: 'Baju',
+                                        //             hargaProduk: '220.000'),
+                                        //       ),
+                                        //       SizedBox(
+                                        //         width: 8,
+                                        //       ),
+                                        //       Flexible(
+                                        //         child: HomeProduct(
+                                        //             nameProduk: 'Baju',
+                                        //             hargaProduk: '220.000'),
+                                        //       ),
+                                        //       SizedBox(
+                                        //         width: 8,
+                                        //       ),
+                                        //       // HomeProduct(
+                                        //       //     nameProduk: 'Celana', hargaProduk: '120.000'),
+                                        //     ],
+                                        //   ),
 
-                                          // child: StaggeredGridView.countBuilder(
-                                          //   crossAxisCount: 3,
-                                          //   // itemCount: provider.daftarProdukModelData.length,
-                                          //   itemBuilder: (context, i) => const HomeProduct(
-                                          //     hargaProduk: '20.000',
-                                          //     nameProduk: 'Sepatu',
-                                          //   ),
-                                          //   staggeredTileBuilder: (i) => const StaggeredTile.fit(1),
-                                          // ),
-                                        ),
-                                        const SizedBox(
-                                          height: 10,
-                                        ),
-                                        Padding(
-                                          padding: const EdgeInsets.all(16.0),
-                                          child: Row(
-                                            children: const [
-                                              Flexible(
-                                                child: HomeProduct(
-                                                    nameProduk: 'Baju',
-                                                    hargaProduk: '220.000'),
-                                              ),
-                                              SizedBox(
-                                                width: 8,
-                                              ),
-                                              Flexible(
-                                                child: HomeProduct(
-                                                    nameProduk: 'Baju',
-                                                    hargaProduk: '220.000'),
-                                              ),
-                                              SizedBox(
-                                                width: 8,
-                                              ),
-                                              // HomeProduct(
-                                              //     nameProduk: 'Celana', hargaProduk: '120.000'),
-                                            ],
-                                          ),
+                                        //   // child: StaggeredGridView.countBuilder(
+                                        //   //   crossAxisCount: 3,
+                                        //   //   // itemCount: provider.daftarProdukModelData.length,
+                                        //   //   itemBuilder: (context, i) => const HomeProduct(
+                                        //   //     hargaProduk: '20.000',
+                                        //   //     nameProduk: 'Sepatu',
+                                        //   //   ),
+                                        //   //   staggeredTileBuilder: (i) => const StaggeredTile.fit(1),
+                                        //   // ),
+                                        // ),
+                                        // const SizedBox(
+                                        //   height: 10,
+                                        // ),
+                                        // Padding(
+                                        //   padding: const EdgeInsets.all(16.0),
+                                        //   child: Row(
+                                        //     children: const [
+                                        //       Flexible(
+                                        //         child: HomeProduct(
+                                        //             nameProduk: 'Baju',
+                                        //             hargaProduk: '220.000'),
+                                        //       ),
+                                        //       SizedBox(
+                                        //         width: 8,
+                                        //       ),
+                                        //       Flexible(
+                                        //         child: HomeProduct(
+                                        //             nameProduk: 'Baju',
+                                        //             hargaProduk: '220.000'),
+                                        //       ),
+                                        //       SizedBox(
+                                        //         width: 8,
+                                        //       ),
+                                        //       // HomeProduct(
+                                        //       //     nameProduk: 'Celana', hargaProduk: '120.000'),
+                                        //     ],
+                                        //   ),
 
-                                          // child: StaggeredGridView.countBuilder(
-                                          //   crossAxisCount: 3,
-                                          //   // itemCount: provider.daftarProdukModelData.length,
-                                          //   itemBuilder: (context, i) => const HomeProduct(
-                                          //     hargaProduk: '20.000',
-                                          //     nameProduk: 'Sepatu',
-                                          //   ),
-                                          //   staggeredTileBuilder: (i) => const StaggeredTile.fit(1),
-                                          // ),
-                                        ),
-                                        Padding(
-                                          padding: const EdgeInsets.all(16.0),
-                                          child: Row(
-                                            children: const [
-                                              Flexible(
-                                                child: HomeProduct(
-                                                    nameProduk: 'Baju',
-                                                    hargaProduk: '220.000'),
-                                              ),
-                                              SizedBox(
-                                                width: 8,
-                                              ),
-                                              Flexible(
-                                                child: HomeProduct(
-                                                    nameProduk: 'Baju',
-                                                    hargaProduk: '220.000'),
-                                              ),
-                                              SizedBox(
-                                                width: 8,
-                                              ),
-                                              // HomeProduct(
-                                              //     nameProduk: 'Celana', hargaProduk: '120.000'),
-                                            ],
-                                          ),
+                                        //   // child: StaggeredGridView.countBuilder(
+                                        //   //   crossAxisCount: 3,
+                                        //   //   // itemCount: provider.daftarProdukModelData.length,
+                                        //   //   itemBuilder: (context, i) => const HomeProduct(
+                                        //   //     hargaProduk: '20.000',
+                                        //   //     nameProduk: 'Sepatu',
+                                        //   //   ),
+                                        //   //   staggeredTileBuilder: (i) => const StaggeredTile.fit(1),
+                                        //   // ),
+                                        // ),
+                                        // Padding(
+                                        //   padding: const EdgeInsets.all(16.0),
+                                        //   child: Row(
+                                        //     children: const [
+                                        //       Flexible(
+                                        //         child: HomeProduct(
+                                        //             nameProduk: 'Baju',
+                                        //             hargaProduk: '220.000'),
+                                        //       ),
+                                        //       SizedBox(
+                                        //         width: 8,
+                                        //       ),
+                                        //       Flexible(
+                                        //         child: HomeProduct(
+                                        //             nameProduk: 'Baju',
+                                        //             hargaProduk: '220.000'),
+                                        //       ),
+                                        //       SizedBox(
+                                        //         width: 8,
+                                        //       ),
+                                        //       // HomeProduct(
+                                        //       //     nameProduk: 'Celana', hargaProduk: '120.000'),
+                                        //     ],
+                                        //   ),
 
-                                          // child: StaggeredGridView.countBuilder(
-                                          //   crossAxisCount: 3,
-                                          //   // itemCount: provider.daftarProdukModelData.length,
-                                          //   itemBuilder: (context, i) => const HomeProduct(
-                                          //     hargaProduk: '20.000',
-                                          //     nameProduk: 'Sepatu',
-                                          //   ),
-                                          //   staggeredTileBuilder: (i) => const StaggeredTile.fit(1),
-                                          // ),
-                                        ),
+                                        // child: StaggeredGridView.countBuilder(
+                                        //   crossAxisCount: 3,
+                                        //   // itemCount: provider.daftarProdukModelData.length,
+                                        //   itemBuilder: (context, i) => const HomeProduct(
+                                        //     hargaProduk: '20.000',
+                                        //     nameProduk: 'Sepatu',
+                                        //   ),
+                                        //   staggeredTileBuilder: (i) => const StaggeredTile.fit(1),
+                                        // ),
+                                        // ),
                                       ],
                                     );
                                   }
