@@ -26,12 +26,13 @@ class HomeCategory extends StatelessWidget {
             width: 60.0,
             height: 60.0,
             decoration: BoxDecoration(
-              color: AppColors.grayColor,
+              color: AppColors.yellowColor,
               borderRadius: BorderRadius.circular(8),
             ),
             child: Image.network(
               imageUrl,
               fit: BoxFit.contain,
+              color: AppColors.grayColor,
             ),
           ),
           const SizedBox(

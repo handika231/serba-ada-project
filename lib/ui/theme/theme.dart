@@ -20,7 +20,7 @@ class AppColors {
 
   static Color inputFillColor = Color(0xffF1F1F1);
   static Color inputBorderColor = Color(0xffE0E0E0);
-  static Color orangePrimary = Color(0xffF58220);
+  static Color orangePrimary = Color.fromARGB(255, 245, 216, 171);
 
   static Color orangePri = Color(0xfffcaf29);
   // fcaf29

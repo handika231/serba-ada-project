@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
 
 import 'bottom_navbar.dart';
 import 'core/flutter_no_sql.dart';
@@ -79,7 +80,8 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               textAlign: TextAlign.center,
             ),
-            // child: SvgPicture.asset('assets/svg/up_arrow.svg'),
+            // child:
+            // SvgPicture.asset('assets/svg/up_arrow.svg'),
           ),
         ),
       ),

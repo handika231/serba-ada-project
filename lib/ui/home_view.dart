@@ -252,7 +252,8 @@ class HomeViewState extends State<HomeView> {
                             const SizedBox(
                               height: 16,
                             ),
-                            SizedBox(
+                            Container(
+                              color: AppColors.whiteColor,
                               child: FutureBuilder<Category>(
                                 future:
                                     CategoryProductsApi.getCategoryProduct(),
@@ -320,11 +321,14 @@ class HomeViewState extends State<HomeView> {
                                               const EdgeInsets.only(left: 16),
                                           child: Text(
                                             'Rekomendasi',
-                                            style: AppTextStyle.regularTextStyle
+                                            style: AppTextStyle.boldTextStyle
                                                 .copyWith(
-                                              color: AppColors.blueColor,
+                                              color: AppColors.orangeColor,
                                             ),
                                           ),
+                                        ),
+                                        const SizedBox(
+                                          height: 20,
                                         ),
                                         GridView(
                                           shrinkWrap: true,
@@ -346,7 +350,7 @@ class HomeViewState extends State<HomeView> {
                                             return HomeProduct(
                                               imageUrl: image.toString(),
                                               hargaProduk:
-                                                  item.priceNormal.toString(),
+                                                  item.priceNormalRp.toString(),
                                               nameProduk: item.name.toString(),
                                             );
                                           }).toList(),

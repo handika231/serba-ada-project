@@ -1,20 +1,15 @@
-// ignore_for_file: avoid_print
-
 import 'dart:convert';
-import 'dart:developer';
-import 'package:serbada/core/util/log.dart';
 
-import '../../models/category/category.dart';
-import '../flutter_no_sql.dart';
-import 'base_url.dart';
 import 'package:dio/dio.dart';
+import 'package:serbada/core/api/base_url.dart';
+import 'package:serbada/models/category/category.dart';
 
-class BestSellerApi {
-  static String bestSeller = 'popular';
+class DetailProductsApi {
+  static String detailProductUrl = 'detail';
 
-  static Future<Category> getCategoryProduct() async {
+  static Future<Category> getDetailProduct(String id) async {
     Dio dio = Dio();
-    String url = BaseUrl.baseUrl + bestSeller;
+    String url = '${BaseUrl.baseUrl}$detailProductUrl?product_id=$id';
     dio.options.headers['Accept'] = 'application/json';
     dio.options.headers['Authorization'] =
         'Bearer da39a3ee5e6b4b0d3255bfef95601890afd80709';

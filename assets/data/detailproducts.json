@@ -1,0 +1,536 @@
+{
+    "version": 1,
+    "queryString": {
+        "slug": "string",
+        "product_id": "int"
+    },
+    "response": [
+        {
+            "product_id": 3366,
+            "name": "Angola Panci Stainless Steel Set 3 Pcs E12 Alat Masak Dapur Anti-stick",
+            "summary": "",
+            "slug": "angola-panci-stainless-steel-set-3-pcs-e12-alat-masak-dapur-anti-stick-20220607112948",
+            "description": [
+                "<p><strong>SerbaAda.com - </strong>Angola Panci Stainless Steel Set 3 Pcs E12 Alat Masak Dapur Anti-stick Panci Susu//Milkpot</p>\n<p>Panci set berbahan stainless steel food grade yang dapat di gunakan di semua kompor. Terdiri dari 3 jenis dan ukuran panci cukup untuk kebutuhan masak keluarga anda. Dilengkapi juga dengan tutup transparan dan penggangan yang kokoh.</p>\n<p>Keunggulan produk: - 1 Set isi 3 panci dengan jenis dan ukuran berbeda yang cukup untuk memenuhi dan melengkapi kebutuhan alat masak keluarga - Dilengkapi penutup transparan tembus pandang dengan lubang uap - Bahan material stainless steel food grade, tebal, tidak mudah terkikis, tidak beracun, aman untuk keluarga, tahan lama - Dapat dipakai di semua jenis kompor (baik kompor listrik maupun kompor gas) - Memiliki desain yang sederhana namun timeless, dapat menyesuaikan dengan jenis desain dapur anda - Penyangga yang kuat antara tutup dan pegangan , kokoh dan aman dipakai</p>\n<p>&nbsp;</p>\n<p>Ukuran produk : Panci susu 18 x 18 x 9.5 cm Panci sup 22 x 22 x 11 cm Panci tumis 23.5 x 23.5 x 5 cm</p>\n<p>&nbsp;</p>"
+            ],
+            "category_path": [
+                "perlengkapan-rumah",
+                "lain-lain"
+            ],
+            "category_path_id": [
+                "0",
+                "13",
+                "18"
+            ],
+            "price_normal": 230000,
+            "price": 195500,
+            "location": 153,
+            "weight": 1000,
+            "price_normal_rp": "Rp 230.000",
+            "price_rp": "Rp 195.500",
+            "diskon": 15,
+            "options": [],
+            "rating": 0,
+            "gallery": [
+                {
+                    "url_originals": "https://media.serbada.com/product/images/2022/06/07/73283-angola-panci-stainless-steel-set-3-pcs-e12-alat-masak-dapur-anti-stick-panci-susumilkpot.jpg",
+                    "url_original": "https://media.serbada.com/product/img/original/2022/06/07/73283-angola-panci-stainless-steel-set-3-pcs-e12-alat-masak-dapur-anti-stick-panci-susumilkpot.jpg",
+                    "url_250x320": "https://media.serbada.com/product/img/250x320/2022/06/07/73283-angola-panci-stainless-steel-set-3-pcs-e12-alat-masak-dapur-anti-stick-panci-susumilkpot.jpg",
+                    "url_375x375": "https://media.serbada.com/product/img/375x375/2022/06/07/73283-angola-panci-stainless-steel-set-3-pcs-e12-alat-masak-dapur-anti-stick-panci-susumilkpot.jpg",
+                    "url_68x68": "https://media.serbada.com/product/img/68x68/2022/06/07/73283-angola-panci-stainless-steel-set-3-pcs-e12-alat-masak-dapur-anti-stick-panci-susumilkpot.jpg",
+                    "caption": "panci set",
+                    "slug": "/2022/06/07/73283-angola-panci-stainless-steel-set-3-pcs-e12-alat-masak-dapur-anti-stick-panci-susumilkpot.jpg"
+                },
+                {
+                    "url_originals": "https://media.serbada.com/product/images/2022/06/07/91886-angola-panci-stainless-steel-set-3-pcs-e12-alat-masak-dapur-anti-stick-panci-susumilkpot.jpg",
+                    "url_original": "https://media.serbada.com/product/img/original/2022/06/07/91886-angola-panci-stainless-steel-set-3-pcs-e12-alat-masak-dapur-anti-stick-panci-susumilkpot.jpg",
+                    "url_250x320": "https://media.serbada.com/product/img/250x320/2022/06/07/91886-angola-panci-stainless-steel-set-3-pcs-e12-alat-masak-dapur-anti-stick-panci-susumilkpot.jpg",
+                    "url_375x375": "https://media.serbada.com/product/img/375x375/2022/06/07/91886-angola-panci-stainless-steel-set-3-pcs-e12-alat-masak-dapur-anti-stick-panci-susumilkpot.jpg",
+                    "url_68x68": "https://media.serbada.com/product/img/68x68/2022/06/07/91886-angola-panci-stainless-steel-set-3-pcs-e12-alat-masak-dapur-anti-stick-panci-susumilkpot.jpg",
+                    "caption": "panci set",
+                    "slug": "/2022/06/07/91886-angola-panci-stainless-steel-set-3-pcs-e12-alat-masak-dapur-anti-stick-panci-susumilkpot.jpg"
+                },
+                {
+                    "url_originals": "https://media.serbada.com/product/images/2022/06/07/45284-angola-panci-stainless-steel-set-3-pcs-e12-alat-masak-dapur-anti-stick-panci-susumilkpot.jpg",
+                    "url_original": "https://media.serbada.com/product/img/original/2022/06/07/45284-angola-panci-stainless-steel-set-3-pcs-e12-alat-masak-dapur-anti-stick-panci-susumilkpot.jpg",
+                    "url_250x320": "https://media.serbada.com/product/img/250x320/2022/06/07/45284-angola-panci-stainless-steel-set-3-pcs-e12-alat-masak-dapur-anti-stick-panci-susumilkpot.jpg",
+                    "url_375x375": "https://media.serbada.com/product/img/375x375/2022/06/07/45284-angola-panci-stainless-steel-set-3-pcs-e12-alat-masak-dapur-anti-stick-panci-susumilkpot.jpg",
+                    "url_68x68": "https://media.serbada.com/product/img/68x68/2022/06/07/45284-angola-panci-stainless-steel-set-3-pcs-e12-alat-masak-dapur-anti-stick-panci-susumilkpot.jpg",
+                    "caption": "panci set",
+                    "slug": "/2022/06/07/45284-angola-panci-stainless-steel-set-3-pcs-e12-alat-masak-dapur-anti-stick-panci-susumilkpot.jpg"
+                }
+            ],
+            "publish_date": "",
+            "create_date": "2022-06-07T11:29:48",
+            "publish_timestamp": "",
+            "author_id": 14,
+            "author": "Monica",
+            "brand_id": 233,
+            "brand": "Angola Official",
+            "tags": [
+                {
+                    "name": "",
+                    "slug": ""
+                }
+            ],
+            "in_stock": 1,
+            "supplier": {
+                "location_name": "Jakarta Selatan",
+                "name": "Serbada Jakarta",
+                "supplier_id": 1,
+                "location_id": 153
+            },
+            "videos": [],
+            "marketplace": [
+                {
+                    "link": "https://www.tokopedia.com/arkadiaserbada/angola-panci-stainless-steel-set-3-pcs-e12-alat-masak-dapur-anti-stick",
+                    "name": "Tokopedia"
+                }
+            ],
+            "product_related": {
+                "count": 14,
+                "product_id": "",
+                "results": [
+                    {
+                        "product_id": 3365,
+                        "name": "Angola Pompa Galon Air Elektrik B14 Rechargeable Water Dispenser",
+                        "slug": "angola-pompa-galon-air-elektrik-b14-rechargeable-water-dispenser-20220607111045",
+                        "price_normal": 150000,
+                        "price": 105000,
+                        "location": 153,
+                        "weight": 1000,
+                        "price_normal_rp": "Rp 150.000",
+                        "price_rp": "Rp 105.000",
+                        "rating": 0,
+                        "gallery": [
+                            {
+                                "url_originals": "https://media.serbada.com/product/images/2022/06/07/41946-angola-pompa-galon-air-elektrik-b14-rechargeable-water-dispenser.jpg",
+                                "url_original": "https://media.serbada.com/product/img/original/2022/06/07/41946-angola-pompa-galon-air-elektrik-b14-rechargeable-water-dispenser.jpg",
+                                "url_250x320": "https://media.serbada.com/product/img/250x320/2022/06/07/41946-angola-pompa-galon-air-elektrik-b14-rechargeable-water-dispenser.jpg",
+                                "url_375x375": "https://media.serbada.com/product/img/375x375/2022/06/07/41946-angola-pompa-galon-air-elektrik-b14-rechargeable-water-dispenser.jpg",
+                                "url_68x68": "https://media.serbada.com/product/img/68x68/2022/06/07/41946-angola-pompa-galon-air-elektrik-b14-rechargeable-water-dispenser.jpg",
+                                "caption": "pompa galon",
+                                "slug": "/2022/06/07/41946-angola-pompa-galon-air-elektrik-b14-rechargeable-water-dispenser.jpg"
+                            },
+                            {
+                                "url_originals": "https://media.serbada.com/product/images/2022/06/07/72288-angola-pompa-galon-air-elektrik-b14-rechargeable-water-dispenser.jpg",
+                                "url_original": "https://media.serbada.com/product/img/original/2022/06/07/72288-angola-pompa-galon-air-elektrik-b14-rechargeable-water-dispenser.jpg",
+                                "url_250x320": "https://media.serbada.com/product/img/250x320/2022/06/07/72288-angola-pompa-galon-air-elektrik-b14-rechargeable-water-dispenser.jpg",
+                                "url_375x375": "https://media.serbada.com/product/img/375x375/2022/06/07/72288-angola-pompa-galon-air-elektrik-b14-rechargeable-water-dispenser.jpg",
+                                "url_68x68": "https://media.serbada.com/product/img/68x68/2022/06/07/72288-angola-pompa-galon-air-elektrik-b14-rechargeable-water-dispenser.jpg",
+                                "caption": "pompa galon",
+                                "slug": "/2022/06/07/72288-angola-pompa-galon-air-elektrik-b14-rechargeable-water-dispenser.jpg"
+                            }
+                        ],
+                        "publish_date": "",
+                        "create_date": "2022-06-07T11:10:45",
+                        "in_stock": 1,
+                        "supplier": {
+                            "location_name": "Jakarta Selatan",
+                            "name": "Serbada Jakarta",
+                            "supplier_id": 1,
+                            "location_id": 153
+                        }
+                    },
+                    {
+                        "product_id": 3364,
+                        "name": "Angola Rotating Dispenser Beras C46 Rice Bucket Wadah Penyimpanan",
+                        "slug": "angola-rotating-dispenser-beras-c46-rice-bucket-wadah-penyimpana-20220607110815",
+                        "price_normal": 320000,
+                        "price": 288000,
+                        "location": 153,
+                        "weight": 1000,
+                        "price_normal_rp": "Rp 320.000",
+                        "price_rp": "Rp 288.000",
+                        "rating": 0,
+                        "gallery": [
+                            {
+                                "url_originals": "https://media.serbada.com/product/images/2022/06/07/44091-angola-rotating-dispenser-beras-c46-rice-bucket-wadah-penyimpana-biji-bijian-bisa-putar-360-0.jpg",
+                                "url_original": "https://media.serbada.com/product/img/original/2022/06/07/44091-angola-rotating-dispenser-beras-c46-rice-bucket-wadah-penyimpana-biji-bijian-bisa-putar-360-0.jpg",
+                                "url_250x320": "https://media.serbada.com/product/img/250x320/2022/06/07/44091-angola-rotating-dispenser-beras-c46-rice-bucket-wadah-penyimpana-biji-bijian-bisa-putar-360-0.jpg",
+                                "url_375x375": "https://media.serbada.com/product/img/375x375/2022/06/07/44091-angola-rotating-dispenser-beras-c46-rice-bucket-wadah-penyimpana-biji-bijian-bisa-putar-360-0.jpg",
+                                "url_68x68": "https://media.serbada.com/product/img/68x68/2022/06/07/44091-angola-rotating-dispenser-beras-c46-rice-bucket-wadah-penyimpana-biji-bijian-bisa-putar-360-0.jpg",
+                                "caption": "perlengkapan rumah",
+                                "slug": "/2022/06/07/44091-angola-rotating-dispenser-beras-c46-rice-bucket-wadah-penyimpana-biji-bijian-bisa-putar-360-0.jpg"
+                            },
+                            {
+                                "url_originals": "https://media.serbada.com/product/images/2022/06/07/96777-angola-rotating-dispenser-beras-c46-rice-bucket-wadah-penyimpana-biji-bijian-bisa-putar-360-0.jpg",
+                                "url_original": "https://media.serbada.com/product/img/original/2022/06/07/96777-angola-rotating-dispenser-beras-c46-rice-bucket-wadah-penyimpana-biji-bijian-bisa-putar-360-0.jpg",
+                                "url_250x320": "https://media.serbada.com/product/img/250x320/2022/06/07/96777-angola-rotating-dispenser-beras-c46-rice-bucket-wadah-penyimpana-biji-bijian-bisa-putar-360-0.jpg",
+                                "url_375x375": "https://media.serbada.com/product/img/375x375/2022/06/07/96777-angola-rotating-dispenser-beras-c46-rice-bucket-wadah-penyimpana-biji-bijian-bisa-putar-360-0.jpg",
+                                "url_68x68": "https://media.serbada.com/product/img/68x68/2022/06/07/96777-angola-rotating-dispenser-beras-c46-rice-bucket-wadah-penyimpana-biji-bijian-bisa-putar-360-0.jpg",
+                                "caption": "perlengkapan rumah",
+                                "slug": "/2022/06/07/96777-angola-rotating-dispenser-beras-c46-rice-bucket-wadah-penyimpana-biji-bijian-bisa-putar-360-0.jpg"
+                            },
+                            {
+                                "url_originals": "https://media.serbada.com/product/images/2022/06/07/47933-angola-rotating-dispenser-beras-c46-rice-bucket-wadah-penyimpana-biji-bijian-bisa-putar-360-0.jpg",
+                                "url_original": "https://media.serbada.com/product/img/original/2022/06/07/47933-angola-rotating-dispenser-beras-c46-rice-bucket-wadah-penyimpana-biji-bijian-bisa-putar-360-0.jpg",
+                                "url_250x320": "https://media.serbada.com/product/img/250x320/2022/06/07/47933-angola-rotating-dispenser-beras-c46-rice-bucket-wadah-penyimpana-biji-bijian-bisa-putar-360-0.jpg",
+                                "url_375x375": "https://media.serbada.com/product/img/375x375/2022/06/07/47933-angola-rotating-dispenser-beras-c46-rice-bucket-wadah-penyimpana-biji-bijian-bisa-putar-360-0.jpg",
+                                "url_68x68": "https://media.serbada.com/product/img/68x68/2022/06/07/47933-angola-rotating-dispenser-beras-c46-rice-bucket-wadah-penyimpana-biji-bijian-bisa-putar-360-0.jpg",
+                                "caption": "perlengkapan rumah",
+                                "slug": "/2022/06/07/47933-angola-rotating-dispenser-beras-c46-rice-bucket-wadah-penyimpana-biji-bijian-bisa-putar-360-0.jpg"
+                            }
+                        ],
+                        "publish_date": "",
+                        "create_date": "2022-06-07T11:08:15",
+                        "in_stock": 1,
+                        "supplier": {
+                            "location_name": "Jakarta Selatan",
+                            "name": "Serbada Jakarta",
+                            "supplier_id": 1,
+                            "location_id": 153
+                        }
+                    },
+                    {
+                        "product_id": 3363,
+                        "name": "Angola Rak Piring Plastik C58 Rak Pengering Piring/Mangkok/Sendok Rak Dapur",
+                        "slug": "angola-rak-piring-plastik-c58-rak-pengering-piringmangkoksendok-rak-dapur-20220603105913",
+                        "price_normal": 130000,
+                        "price": 97500,
+                        "location": 153,
+                        "weight": 1000,
+                        "price_normal_rp": "Rp 130.000",
+                        "price_rp": "Rp 97.500",
+                        "rating": 0,
+                        "gallery": [
+                            {
+                                "url_originals": "https://media.serbada.com/product/images/2022/06/03/78605-angola-rak-piring-plastik-c58-rak-pengering-piringmangkoksendok-rak-dapur.jpg",
+                                "url_original": "https://media.serbada.com/product/img/original/2022/06/03/78605-angola-rak-piring-plastik-c58-rak-pengering-piringmangkoksendok-rak-dapur.jpg",
+                                "url_250x320": "https://media.serbada.com/product/img/250x320/2022/06/03/78605-angola-rak-piring-plastik-c58-rak-pengering-piringmangkoksendok-rak-dapur.jpg",
+                                "url_375x375": "https://media.serbada.com/product/img/375x375/2022/06/03/78605-angola-rak-piring-plastik-c58-rak-pengering-piringmangkoksendok-rak-dapur.jpg",
+                                "url_68x68": "https://media.serbada.com/product/img/68x68/2022/06/03/78605-angola-rak-piring-plastik-c58-rak-pengering-piringmangkoksendok-rak-dapur.jpg",
+                                "caption": "rak piring ",
+                                "slug": "/2022/06/03/78605-angola-rak-piring-plastik-c58-rak-pengering-piringmangkoksendok-rak-dapur.jpg"
+                            },
+                            {
+                                "url_originals": "https://media.serbada.com/product/images/2022/06/03/32834-angola-rak-piring-plastik-c58-rak-pengering-piringmangkoksendok-rak-dapur.jpg",
+                                "url_original": "https://media.serbada.com/product/img/original/2022/06/03/32834-angola-rak-piring-plastik-c58-rak-pengering-piringmangkoksendok-rak-dapur.jpg",
+                                "url_250x320": "https://media.serbada.com/product/img/250x320/2022/06/03/32834-angola-rak-piring-plastik-c58-rak-pengering-piringmangkoksendok-rak-dapur.jpg",
+                                "url_375x375": "https://media.serbada.com/product/img/375x375/2022/06/03/32834-angola-rak-piring-plastik-c58-rak-pengering-piringmangkoksendok-rak-dapur.jpg",
+                                "url_68x68": "https://media.serbada.com/product/img/68x68/2022/06/03/32834-angola-rak-piring-plastik-c58-rak-pengering-piringmangkoksendok-rak-dapur.jpg",
+                                "caption": "rak piring ",
+                                "slug": "/2022/06/03/32834-angola-rak-piring-plastik-c58-rak-pengering-piringmangkoksendok-rak-dapur.jpg"
+                            }
+                        ],
+                        "publish_date": "",
+                        "create_date": "2022-06-03T10:59:13",
+                        "in_stock": 1,
+                        "supplier": {
+                            "location_name": "Jakarta Selatan",
+                            "name": "Serbada Jakarta",
+                            "supplier_id": 1,
+                            "location_id": 153
+                        }
+                    },
+                    {
+                        "product_id": 3359,
+                        "name": "Angola Rak Monitor Meja D80 Rak Laci Penyimpanan Desktop Storage Organizer",
+                        "slug": "angola-rak-monitor-meja-d80-rak-laci-penyimpanan-desktop-storage-organizer-20220414153125",
+                        "price_normal": 200000,
+                        "price": 120000,
+                        "location": 153,
+                        "weight": 1000,
+                        "price_normal_rp": "Rp 200.000",
+                        "price_rp": "Rp 120.000",
+                        "rating": 0,
+                        "gallery": [
+                            {
+                                "url_originals": "https://media.serbada.com/product/images/2022/04/14/97890-angola-rak-monitor-meja-d80-rak-laci-penyimpanan-desktop-storage-organizer.jpg",
+                                "url_original": "https://media.serbada.com/product/img/original/2022/04/14/97890-angola-rak-monitor-meja-d80-rak-laci-penyimpanan-desktop-storage-organizer.jpg",
+                                "url_250x320": "https://media.serbada.com/product/img/250x320/2022/04/14/97890-angola-rak-monitor-meja-d80-rak-laci-penyimpanan-desktop-storage-organizer.jpg",
+                                "url_375x375": "https://media.serbada.com/product/img/375x375/2022/04/14/97890-angola-rak-monitor-meja-d80-rak-laci-penyimpanan-desktop-storage-organizer.jpg",
+                                "url_68x68": "https://media.serbada.com/product/img/68x68/2022/04/14/97890-angola-rak-monitor-meja-d80-rak-laci-penyimpanan-desktop-storage-organizer.jpg",
+                                "caption": "meja mini ",
+                                "slug": "/2022/04/14/97890-angola-rak-monitor-meja-d80-rak-laci-penyimpanan-desktop-storage-organizer.jpg"
+                            },
+                            {
+                                "url_originals": "https://media.serbada.com/product/images/2022/04/14/77188-angola-rak-monitor-meja-d80-rak-laci-penyimpanan-desktop-storage-organizer.jpg",
+                                "url_original": "https://media.serbada.com/product/img/original/2022/04/14/77188-angola-rak-monitor-meja-d80-rak-laci-penyimpanan-desktop-storage-organizer.jpg",
+                                "url_250x320": "https://media.serbada.com/product/img/250x320/2022/04/14/77188-angola-rak-monitor-meja-d80-rak-laci-penyimpanan-desktop-storage-organizer.jpg",
+                                "url_375x375": "https://media.serbada.com/product/img/375x375/2022/04/14/77188-angola-rak-monitor-meja-d80-rak-laci-penyimpanan-desktop-storage-organizer.jpg",
+                                "url_68x68": "https://media.serbada.com/product/img/68x68/2022/04/14/77188-angola-rak-monitor-meja-d80-rak-laci-penyimpanan-desktop-storage-organizer.jpg",
+                                "caption": "meja mini ",
+                                "slug": "/2022/04/14/77188-angola-rak-monitor-meja-d80-rak-laci-penyimpanan-desktop-storage-organizer.jpg"
+                            },
+                            {
+                                "url_originals": "https://media.serbada.com/product/images/2022/04/14/78015-angola-rak-monitor-meja-d80-rak-laci-penyimpanan-desktop-storage-organizer.jpg",
+                                "url_original": "https://media.serbada.com/product/img/original/2022/04/14/78015-angola-rak-monitor-meja-d80-rak-laci-penyimpanan-desktop-storage-organizer.jpg",
+                                "url_250x320": "https://media.serbada.com/product/img/250x320/2022/04/14/78015-angola-rak-monitor-meja-d80-rak-laci-penyimpanan-desktop-storage-organizer.jpg",
+                                "url_375x375": "https://media.serbada.com/product/img/375x375/2022/04/14/78015-angola-rak-monitor-meja-d80-rak-laci-penyimpanan-desktop-storage-organizer.jpg",
+                                "url_68x68": "https://media.serbada.com/product/img/68x68/2022/04/14/78015-angola-rak-monitor-meja-d80-rak-laci-penyimpanan-desktop-storage-organizer.jpg",
+                                "caption": "meja mini ",
+                                "slug": "/2022/04/14/78015-angola-rak-monitor-meja-d80-rak-laci-penyimpanan-desktop-storage-organizer.jpg"
+                            }
+                        ],
+                        "publish_date": "",
+                        "create_date": "2022-04-14T15:31:25",
+                        "in_stock": 1,
+                        "supplier": {
+                            "location_name": "Jakarta Selatan",
+                            "name": "Serbada Jakarta",
+                            "supplier_id": 1,
+                            "location_id": 153
+                        }
+                    },
+                    {
+                        "product_id": 3358,
+                        "name": "Angola Yakiniku Grill Pan Y31 Barberque Grill Pan Alat Pemanggang BBQ",
+                        "slug": "angola-yakiniku-grill-pan-y31-barberque-grill-pan-alat-pemanggang-bbq-20220414152818",
+                        "price_normal": 180000,
+                        "price": 144000,
+                        "location": 153,
+                        "weight": 1000,
+                        "price_normal_rp": "Rp 180.000",
+                        "price_rp": "Rp 144.000",
+                        "rating": 0,
+                        "gallery": [
+                            {
+                                "url_originals": "https://media.serbada.com/product/images/2022/04/14/82656-angola-yakiniku-grill-pan-y31-barberque-grill-pan-alat-pemanggang-bbq-non-stick.jpg",
+                                "url_original": "https://media.serbada.com/product/img/original/2022/04/14/82656-angola-yakiniku-grill-pan-y31-barberque-grill-pan-alat-pemanggang-bbq-non-stick.jpg",
+                                "url_250x320": "https://media.serbada.com/product/img/250x320/2022/04/14/82656-angola-yakiniku-grill-pan-y31-barberque-grill-pan-alat-pemanggang-bbq-non-stick.jpg",
+                                "url_375x375": "https://media.serbada.com/product/img/375x375/2022/04/14/82656-angola-yakiniku-grill-pan-y31-barberque-grill-pan-alat-pemanggang-bbq-non-stick.jpg",
+                                "url_68x68": "https://media.serbada.com/product/img/68x68/2022/04/14/82656-angola-yakiniku-grill-pan-y31-barberque-grill-pan-alat-pemanggang-bbq-non-stick.jpg",
+                                "caption": "grill pan",
+                                "slug": "/2022/04/14/82656-angola-yakiniku-grill-pan-y31-barberque-grill-pan-alat-pemanggang-bbq-non-stick.jpg"
+                            },
+                            {
+                                "url_originals": "https://media.serbada.com/product/images/2022/04/14/95631-angola-yakiniku-grill-pan-y31-barberque-grill-pan-alat-pemanggang-bbq-non-stick.jpg",
+                                "url_original": "https://media.serbada.com/product/img/original/2022/04/14/95631-angola-yakiniku-grill-pan-y31-barberque-grill-pan-alat-pemanggang-bbq-non-stick.jpg",
+                                "url_250x320": "https://media.serbada.com/product/img/250x320/2022/04/14/95631-angola-yakiniku-grill-pan-y31-barberque-grill-pan-alat-pemanggang-bbq-non-stick.jpg",
+                                "url_375x375": "https://media.serbada.com/product/img/375x375/2022/04/14/95631-angola-yakiniku-grill-pan-y31-barberque-grill-pan-alat-pemanggang-bbq-non-stick.jpg",
+                                "url_68x68": "https://media.serbada.com/product/img/68x68/2022/04/14/95631-angola-yakiniku-grill-pan-y31-barberque-grill-pan-alat-pemanggang-bbq-non-stick.jpg",
+                                "caption": "grill pan",
+                                "slug": "/2022/04/14/95631-angola-yakiniku-grill-pan-y31-barberque-grill-pan-alat-pemanggang-bbq-non-stick.jpg"
+                            }
+                        ],
+                        "publish_date": "",
+                        "create_date": "2022-04-14T15:28:18",
+                        "in_stock": 1,
+                        "supplier": {
+                            "location_name": "Jakarta Selatan",
+                            "name": "Serbada Jakarta",
+                            "supplier_id": 1,
+                            "location_id": 153
+                        }
+                    },
+                    {
+                        "product_id": 3357,
+                        "name": "Angola Rice Dispenser E67/E79 Dispenser Beras Tempat Wadah Penyimpanan",
+                        "slug": "angola-rice-dispenser-e67e79-dispenser-beras-tempat-wadah-penyimpanan-20220414152449",
+                        "price_normal": 180000,
+                        "price": 126000,
+                        "location": 153,
+                        "weight": 1000,
+                        "price_normal_rp": "Rp 180.000",
+                        "price_rp": "Rp 126.000",
+                        "rating": 0,
+                        "gallery": [
+                            {
+                                "url_originals": "https://media.serbada.com/product/images/2022/04/14/32392-angola-rice-dispenser-e67e79-dispenser-beras-tempat-wadah-penyimpanan-beras-rice-bucket.jpg",
+                                "url_original": "https://media.serbada.com/product/img/original/2022/04/14/32392-angola-rice-dispenser-e67e79-dispenser-beras-tempat-wadah-penyimpanan-beras-rice-bucket.jpg",
+                                "url_250x320": "https://media.serbada.com/product/img/250x320/2022/04/14/32392-angola-rice-dispenser-e67e79-dispenser-beras-tempat-wadah-penyimpanan-beras-rice-bucket.jpg",
+                                "url_375x375": "https://media.serbada.com/product/img/375x375/2022/04/14/32392-angola-rice-dispenser-e67e79-dispenser-beras-tempat-wadah-penyimpanan-beras-rice-bucket.jpg",
+                                "url_68x68": "https://media.serbada.com/product/img/68x68/2022/04/14/32392-angola-rice-dispenser-e67e79-dispenser-beras-tempat-wadah-penyimpanan-beras-rice-bucket.jpg",
+                                "caption": "dispenser beras",
+                                "slug": "/2022/04/14/32392-angola-rice-dispenser-e67e79-dispenser-beras-tempat-wadah-penyimpanan-beras-rice-bucket.jpg"
+                            },
+                            {
+                                "url_originals": "https://media.serbada.com/product/images/2022/04/14/51741-angola-rice-dispenser-e67e79-dispenser-beras-tempat-wadah-penyimpanan-beras-rice-bucket.jpg",
+                                "url_original": "https://media.serbada.com/product/img/original/2022/04/14/51741-angola-rice-dispenser-e67e79-dispenser-beras-tempat-wadah-penyimpanan-beras-rice-bucket.jpg",
+                                "url_250x320": "https://media.serbada.com/product/img/250x320/2022/04/14/51741-angola-rice-dispenser-e67e79-dispenser-beras-tempat-wadah-penyimpanan-beras-rice-bucket.jpg",
+                                "url_375x375": "https://media.serbada.com/product/img/375x375/2022/04/14/51741-angola-rice-dispenser-e67e79-dispenser-beras-tempat-wadah-penyimpanan-beras-rice-bucket.jpg",
+                                "url_68x68": "https://media.serbada.com/product/img/68x68/2022/04/14/51741-angola-rice-dispenser-e67e79-dispenser-beras-tempat-wadah-penyimpanan-beras-rice-bucket.jpg",
+                                "caption": "dispenser beras",
+                                "slug": "/2022/04/14/51741-angola-rice-dispenser-e67e79-dispenser-beras-tempat-wadah-penyimpanan-beras-rice-bucket.jpg"
+                            }
+                        ],
+                        "publish_date": "",
+                        "create_date": "2022-04-14T15:24:49",
+                        "in_stock": 1,
+                        "supplier": {
+                            "location_name": "Jakarta Selatan",
+                            "name": "Serbada Jakarta",
+                            "supplier_id": 1,
+                            "location_id": 153
+                        }
+                    },
+                    {
+                        "product_id": 3273,
+                        "name": "Angola Penahan Angin AC D13 Talang AC/AC Reflector/AC Windshield/AC Cover",
+                        "slug": "angola-penahan-angin-ac-d13-talang-acac-reflectorac-windshieldac-cover-20220203110313",
+                        "price_normal": 120000,
+                        "price": 66000,
+                        "location": 153,
+                        "weight": 1000,
+                        "price_normal_rp": "Rp 120.000",
+                        "price_rp": "Rp 66.000",
+                        "rating": 0,
+                        "gallery": [
+                            {
+                                "url_originals": "https://media.serbada.com/product/images/2022/02/03/75885-angola-penahan-angin-ac-d13-talang-acac-reflectorac-windshieldac-cover.jpg",
+                                "url_original": "https://media.serbada.com/product/img/original/2022/02/03/75885-angola-penahan-angin-ac-d13-talang-acac-reflectorac-windshieldac-cover.jpg",
+                                "url_250x320": "https://media.serbada.com/product/img/250x320/2022/02/03/75885-angola-penahan-angin-ac-d13-talang-acac-reflectorac-windshieldac-cover.jpg",
+                                "url_375x375": "https://media.serbada.com/product/img/375x375/2022/02/03/75885-angola-penahan-angin-ac-d13-talang-acac-reflectorac-windshieldac-cover.jpg",
+                                "url_68x68": "https://media.serbada.com/product/img/68x68/2022/02/03/75885-angola-penahan-angin-ac-d13-talang-acac-reflectorac-windshieldac-cover.jpg",
+                                "caption": "perlengkapan rumah",
+                                "slug": "/2022/02/03/75885-angola-penahan-angin-ac-d13-talang-acac-reflectorac-windshieldac-cover.jpg"
+                            },
+                            {
+                                "url_originals": "https://media.serbada.com/product/images/2022/02/03/43532-angola-penahan-angin-ac-d13-talang-acac-reflectorac-windshieldac-cover.jpg",
+                                "url_original": "https://media.serbada.com/product/img/original/2022/02/03/43532-angola-penahan-angin-ac-d13-talang-acac-reflectorac-windshieldac-cover.jpg",
+                                "url_250x320": "https://media.serbada.com/product/img/250x320/2022/02/03/43532-angola-penahan-angin-ac-d13-talang-acac-reflectorac-windshieldac-cover.jpg",
+                                "url_375x375": "https://media.serbada.com/product/img/375x375/2022/02/03/43532-angola-penahan-angin-ac-d13-talang-acac-reflectorac-windshieldac-cover.jpg",
+                                "url_68x68": "https://media.serbada.com/product/img/68x68/2022/02/03/43532-angola-penahan-angin-ac-d13-talang-acac-reflectorac-windshieldac-cover.jpg",
+                                "caption": "perlengkapan rumah",
+                                "slug": "/2022/02/03/43532-angola-penahan-angin-ac-d13-talang-acac-reflectorac-windshieldac-cover.jpg"
+                            }
+                        ],
+                        "publish_date": "",
+                        "create_date": "2022-02-03T11:03:13",
+                        "in_stock": 1,
+                        "supplier": {
+                            "location_name": "Jakarta Selatan",
+                            "name": "Serbada Jakarta",
+                            "supplier_id": 1,
+                            "location_id": 153
+                        }
+                    },
+                    {
+                        "product_id": 3272,
+                        "name": "Angola Sink Tidy Set 2in1 D64 Dispenser Sabun Tempat Sikat Gigi",
+                        "slug": "angola-sink-tidy-set-2in1-d64-dispenser-sabun-tempat-sikat-gigi-20220203110049",
+                        "price_normal": 50000,
+                        "price": 35000,
+                        "location": 153,
+                        "weight": 1000,
+                        "price_normal_rp": "Rp 50.000",
+                        "price_rp": "Rp 35.000",
+                        "rating": 0,
+                        "gallery": [
+                            {
+                                "url_originals": "https://media.serbada.com/product/images/2022/02/03/78311-angola-sink-tidy-set-2in1-d64-dispenser-sabun-tempat-sikat-gigi-rak-kamar-mandi.jpg",
+                                "url_original": "https://media.serbada.com/product/img/original/2022/02/03/78311-angola-sink-tidy-set-2in1-d64-dispenser-sabun-tempat-sikat-gigi-rak-kamar-mandi.jpg",
+                                "url_250x320": "https://media.serbada.com/product/img/250x320/2022/02/03/78311-angola-sink-tidy-set-2in1-d64-dispenser-sabun-tempat-sikat-gigi-rak-kamar-mandi.jpg",
+                                "url_375x375": "https://media.serbada.com/product/img/375x375/2022/02/03/78311-angola-sink-tidy-set-2in1-d64-dispenser-sabun-tempat-sikat-gigi-rak-kamar-mandi.jpg",
+                                "url_68x68": "https://media.serbada.com/product/img/68x68/2022/02/03/78311-angola-sink-tidy-set-2in1-d64-dispenser-sabun-tempat-sikat-gigi-rak-kamar-mandi.jpg",
+                                "caption": "perlengkapan dapur",
+                                "slug": "/2022/02/03/78311-angola-sink-tidy-set-2in1-d64-dispenser-sabun-tempat-sikat-gigi-rak-kamar-mandi.jpg"
+                            },
+                            {
+                                "url_originals": "https://media.serbada.com/product/images/2022/02/03/17829-angola-sink-tidy-set-2in1-d64-dispenser-sabun-tempat-sikat-gigi-rak-kamar-mandi.jpg",
+                                "url_original": "https://media.serbada.com/product/img/original/2022/02/03/17829-angola-sink-tidy-set-2in1-d64-dispenser-sabun-tempat-sikat-gigi-rak-kamar-mandi.jpg",
+                                "url_250x320": "https://media.serbada.com/product/img/250x320/2022/02/03/17829-angola-sink-tidy-set-2in1-d64-dispenser-sabun-tempat-sikat-gigi-rak-kamar-mandi.jpg",
+                                "url_375x375": "https://media.serbada.com/product/img/375x375/2022/02/03/17829-angola-sink-tidy-set-2in1-d64-dispenser-sabun-tempat-sikat-gigi-rak-kamar-mandi.jpg",
+                                "url_68x68": "https://media.serbada.com/product/img/68x68/2022/02/03/17829-angola-sink-tidy-set-2in1-d64-dispenser-sabun-tempat-sikat-gigi-rak-kamar-mandi.jpg",
+                                "caption": "perlengkapan dapur",
+                                "slug": "/2022/02/03/17829-angola-sink-tidy-set-2in1-d64-dispenser-sabun-tempat-sikat-gigi-rak-kamar-mandi.jpg"
+                            },
+                            {
+                                "url_originals": "https://media.serbada.com/product/images/2022/02/03/29663-angola-sink-tidy-set-2in1-d64-dispenser-sabun-tempat-sikat-gigi-rak-kamar-mandi.jpg",
+                                "url_original": "https://media.serbada.com/product/img/original/2022/02/03/29663-angola-sink-tidy-set-2in1-d64-dispenser-sabun-tempat-sikat-gigi-rak-kamar-mandi.jpg",
+                                "url_250x320": "https://media.serbada.com/product/img/250x320/2022/02/03/29663-angola-sink-tidy-set-2in1-d64-dispenser-sabun-tempat-sikat-gigi-rak-kamar-mandi.jpg",
+                                "url_375x375": "https://media.serbada.com/product/img/375x375/2022/02/03/29663-angola-sink-tidy-set-2in1-d64-dispenser-sabun-tempat-sikat-gigi-rak-kamar-mandi.jpg",
+                                "url_68x68": "https://media.serbada.com/product/img/68x68/2022/02/03/29663-angola-sink-tidy-set-2in1-d64-dispenser-sabun-tempat-sikat-gigi-rak-kamar-mandi.jpg",
+                                "caption": "perlengkapan dapur",
+                                "slug": "/2022/02/03/29663-angola-sink-tidy-set-2in1-d64-dispenser-sabun-tempat-sikat-gigi-rak-kamar-mandi.jpg"
+                            }
+                        ],
+                        "publish_date": "",
+                        "create_date": "2022-02-03T11:00:49",
+                        "in_stock": 1,
+                        "supplier": {
+                            "location_name": "Jakarta Selatan",
+                            "name": "Serbada Jakarta",
+                            "supplier_id": 1,
+                            "location_id": 153
+                        }
+                    },
+                    {
+                        "product_id": 3271,
+                        "name": "Angola Sekat Laci Sendok Garpu C94 Tempat Penyimpanan Alat Makan",
+                        "slug": "angola-sekat-laci-sendok-garpu-c94-tempat-penyimpanan-alat-makan-20220203105803",
+                        "price_normal": 50000,
+                        "price": 40000,
+                        "location": 153,
+                        "weight": 1000,
+                        "price_normal_rp": "Rp 50.000",
+                        "price_rp": "Rp 40.000",
+                        "rating": 0,
+                        "gallery": [
+                            {
+                                "url_originals": "https://media.serbada.com/product/images/2022/02/03/39546-angola-sekat-laci-sendok-garpu-c94-tempat-penyimpanan-alat-makan-cutlery-storage-box.jpg",
+                                "url_original": "https://media.serbada.com/product/img/original/2022/02/03/39546-angola-sekat-laci-sendok-garpu-c94-tempat-penyimpanan-alat-makan-cutlery-storage-box.jpg",
+                                "url_250x320": "https://media.serbada.com/product/img/250x320/2022/02/03/39546-angola-sekat-laci-sendok-garpu-c94-tempat-penyimpanan-alat-makan-cutlery-storage-box.jpg",
+                                "url_375x375": "https://media.serbada.com/product/img/375x375/2022/02/03/39546-angola-sekat-laci-sendok-garpu-c94-tempat-penyimpanan-alat-makan-cutlery-storage-box.jpg",
+                                "url_68x68": "https://media.serbada.com/product/img/68x68/2022/02/03/39546-angola-sekat-laci-sendok-garpu-c94-tempat-penyimpanan-alat-makan-cutlery-storage-box.jpg",
+                                "caption": "perlengkapan dapur ",
+                                "slug": "/2022/02/03/39546-angola-sekat-laci-sendok-garpu-c94-tempat-penyimpanan-alat-makan-cutlery-storage-box.jpg"
+                            },
+                            {
+                                "url_originals": "https://media.serbada.com/product/images/2022/02/03/84969-angola-sekat-laci-sendok-garpu-c94-tempat-penyimpanan-alat-makan-cutlery-storage-box.jpg",
+                                "url_original": "https://media.serbada.com/product/img/original/2022/02/03/84969-angola-sekat-laci-sendok-garpu-c94-tempat-penyimpanan-alat-makan-cutlery-storage-box.jpg",
+                                "url_250x320": "https://media.serbada.com/product/img/250x320/2022/02/03/84969-angola-sekat-laci-sendok-garpu-c94-tempat-penyimpanan-alat-makan-cutlery-storage-box.jpg",
+                                "url_375x375": "https://media.serbada.com/product/img/375x375/2022/02/03/84969-angola-sekat-laci-sendok-garpu-c94-tempat-penyimpanan-alat-makan-cutlery-storage-box.jpg",
+                                "url_68x68": "https://media.serbada.com/product/img/68x68/2022/02/03/84969-angola-sekat-laci-sendok-garpu-c94-tempat-penyimpanan-alat-makan-cutlery-storage-box.jpg",
+                                "caption": "perlengkapan dapur ",
+                                "slug": "/2022/02/03/84969-angola-sekat-laci-sendok-garpu-c94-tempat-penyimpanan-alat-makan-cutlery-storage-box.jpg"
+                            }
+                        ],
+                        "publish_date": "",
+                        "create_date": "2022-02-03T10:58:03",
+                        "in_stock": 1,
+                        "supplier": {
+                            "location_name": "Jakarta Selatan",
+                            "name": "Serbada Jakarta",
+                            "supplier_id": 1,
+                            "location_id": 153
+                        }
+                    },
+                    {
+                        "product_id": 3270,
+                        "name": "Angola Sekat Laci Penyimpanan C43 Tempat Sendok Garpu Storage Box Organizer",
+                        "slug": "angola-sekat-laci-penyimpanan-c43-tempat-sendok-garpu-storage-box-organizer-20220203105531",
+                        "price_normal": 90000,
+                        "price": 63000,
+                        "location": 153,
+                        "weight": 1000,
+                        "price_normal_rp": "Rp 90.000",
+                        "price_rp": "Rp 63.000",
+                        "rating": 0,
+                        "gallery": [
+                            {
+                                "url_originals": "https://media.serbada.com/product/images/2022/02/03/88605-angola-sekat-laci-penyimpanan-c43-tempat-sendok-garpu-storage-box-organizer.jpg",
+                                "url_original": "https://media.serbada.com/product/img/original/2022/02/03/88605-angola-sekat-laci-penyimpanan-c43-tempat-sendok-garpu-storage-box-organizer.jpg",
+                                "url_250x320": "https://media.serbada.com/product/img/250x320/2022/02/03/88605-angola-sekat-laci-penyimpanan-c43-tempat-sendok-garpu-storage-box-organizer.jpg",
+                                "url_375x375": "https://media.serbada.com/product/img/375x375/2022/02/03/88605-angola-sekat-laci-penyimpanan-c43-tempat-sendok-garpu-storage-box-organizer.jpg",
+                                "url_68x68": "https://media.serbada.com/product/img/68x68/2022/02/03/88605-angola-sekat-laci-penyimpanan-c43-tempat-sendok-garpu-storage-box-organizer.jpg",
+                                "caption": "perlengkapan dapur",
+                                "slug": "/2022/02/03/88605-angola-sekat-laci-penyimpanan-c43-tempat-sendok-garpu-storage-box-organizer.jpg"
+                            },
+                            {
+                                "url_originals": "https://media.serbada.com/product/images/2022/02/03/76311-angola-sekat-laci-penyimpanan-c43-tempat-sendok-garpu-storage-box-organizer.jpg",
+                                "url_original": "https://media.serbada.com/product/img/original/2022/02/03/76311-angola-sekat-laci-penyimpanan-c43-tempat-sendok-garpu-storage-box-organizer.jpg",
+                                "url_250x320": "https://media.serbada.com/product/img/250x320/2022/02/03/76311-angola-sekat-laci-penyimpanan-c43-tempat-sendok-garpu-storage-box-organizer.jpg",
+                                "url_375x375": "https://media.serbada.com/product/img/375x375/2022/02/03/76311-angola-sekat-laci-penyimpanan-c43-tempat-sendok-garpu-storage-box-organizer.jpg",
+                                "url_68x68": "https://media.serbada.com/product/img/68x68/2022/02/03/76311-angola-sekat-laci-penyimpanan-c43-tempat-sendok-garpu-storage-box-organizer.jpg",
+                                "caption": "perlengkapan dapur",
+                                "slug": "/2022/02/03/76311-angola-sekat-laci-penyimpanan-c43-tempat-sendok-garpu-storage-box-organizer.jpg"
+                            }
+                        ],
+                        "publish_date": "",
+                        "create_date": "2022-02-03T10:55:31",
+                        "in_stock": 1,
+                        "supplier": {
+                            "location_name": "Jakarta Selatan",
+                            "name": "Serbada Jakarta",
+                            "supplier_id": 1,
+                            "location_id": 153
+                        }
+                    }
+                ]
+            },
+            "detailUrl": "https://www.serbada.com/product/angola-panci-stainless-steel-set-3-pcs-e12-alat-masak-dapur-anti-stick-20220607112948"
+        }
+    ]
+}

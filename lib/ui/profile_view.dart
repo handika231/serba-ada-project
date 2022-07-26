@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:serbada/ui/router/router.dart';
 import 'package:serbada/ui/theme/theme.dart';
 
 import '../bottom_navbar.dart';
@@ -145,11 +146,13 @@ class _ProfileState extends State<Profile> {
                           SizedBox(height: 2),
                           InkWell(
                             onTap: () async {
-                              // AppRouter.navToChangePasswordScreenSurveyor(
-                              //     context, provider);
+                              AppRouter.navToLoginPage(
+                                context,
+                              );
                             },
                             child: Container(
-                              padding: EdgeInsets.only(top: 10, bottom: 10),
+                              padding:
+                                  const EdgeInsets.only(top: 10, bottom: 10),
                               child: Row(
                                 crossAxisAlignment: CrossAxisAlignment.center,
                                 mainAxisAlignment: MainAxisAlignment.center,
@@ -168,8 +171,8 @@ class _ProfileState extends State<Profile> {
                                   ),
                                   Expanded(
                                     child: Container(
-                                      padding:
-                                          EdgeInsets.only(left: 10, right: 10),
+                                      padding: const EdgeInsets.only(
+                                          left: 10, right: 10),
                                       child: Text(
                                         'Ubah Password',
                                         style:
@@ -189,7 +192,7 @@ class _ProfileState extends State<Profile> {
                               ),
                             ),
                           ),
-                          Divider(
+                          const Divider(
                             height: 1,
                           ),
                         ],
@@ -198,24 +201,24 @@ class _ProfileState extends State<Profile> {
                     Container(
                       width: double.infinity,
                       child: TextButton(
-                          child: Text("Keluar Aplikasi",
-                              style: AppTextStyle.boldTextStyle.copyWith(
-                                  fontSize: 14, color: AppColors.redColor)),
                           style: ButtonStyle(
                             padding: MaterialStateProperty.all<EdgeInsets>(
-                              EdgeInsets.all(20),
+                              const EdgeInsets.all(20),
                             ),
                             shape: MaterialStateProperty.all<
                                 RoundedRectangleBorder>(
                               RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(18.0),
-                                side: BorderSide(color: Colors.red),
+                                side: const BorderSide(color: Colors.red),
                               ),
                             ),
                           ),
                           onPressed: () {
                             // _signOut(provider);
-                          }),
+                          },
+                          child: Text("Keluar Aplikasi",
+                              style: AppTextStyle.boldTextStyle.copyWith(
+                                  fontSize: 14, color: AppColors.redColor))),
                     ),
                   ],
                 ),

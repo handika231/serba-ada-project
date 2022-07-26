@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:serbada/ui/best_seller_view.dart';
 import 'package:serbada/ui/category.dart';
+import 'package:serbada/ui/category_view.dart';
 // import 'package:serbada/ui/category_view.dart';
 import 'package:serbada/ui/profile_view.dart';
 
@@ -19,7 +20,7 @@ class NavbarState extends State<Navbar> {
   int _selectedPage = 0;
   final _pageOptions = [
     const HomeView(),
-    const Category(),
+    const CategoryView(),
     const BestSeller(),
     Profile(),
 
@@ -39,7 +40,7 @@ class NavbarState extends State<Navbar> {
     return MaterialApp(
       title: 'Serbada Apps',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(primarySwatch: Colors.blue),
+      theme: ThemeData(primarySwatch: Colors.orange),
       home: Scaffold(
         // appBar: AppBar(
         //     // title: Text('Riwayat Transaksi'),
@@ -55,9 +56,9 @@ class NavbarState extends State<Navbar> {
           },
           // bottomNavigationBar: BottomNavigationBar(
           items: const [
-            BottomNavigationBarItem(icon: Icon(Icons.upcoming), label: 'Home'),
+            BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
             BottomNavigationBarItem(
-                icon: Icon(Icons.play_arrow), label: 'Category'),
+                icon: Icon(Icons.category), label: 'Category'),
             BottomNavigationBarItem(
                 icon: Icon(Icons.rate_review), label: 'Best Seller'),
             BottomNavigationBarItem(icon: Icon(Icons.people), label: 'Profile'),

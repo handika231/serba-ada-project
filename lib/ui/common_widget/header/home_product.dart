@@ -24,10 +24,10 @@ class HomeProduct extends StatelessWidget {
         children: [
           Flexible(
             child: ClipRRect(
-              borderRadius: BorderRadius.circular(15),
+              borderRadius: BorderRadius.circular(25),
               child: Image.network(imageUrl,
                   // width: double.infinity,
-                  height: 165,
+                  height: 185,
                   fit: BoxFit.cover),
             ),
           ),
