@@ -58,6 +58,8 @@ class HomeViewState extends State<HomeView> {
     } else {}
 
     return
+
+        //
         // SafeArea(
         //             child: Shimmer.fromColors(
         //               baseColor: Colors.black26,
