@@ -19,14 +19,14 @@ class DetailsProducts {
 
   int version;
   QueryString queryString;
-  List<Response> response;
+  List<ResponseData> response;
 
   factory DetailsProducts.fromJson(Map<String, dynamic> json) =>
       DetailsProducts(
         version: json["version"],
         queryString: QueryString.fromJson(json["queryString"]),
-        response: List<Response>.from(
-            json["response"].map((x) => Response.fromJson(x))),
+        response: List<ResponseData>.from(
+            json["response"].map((x) => ResponseData.fromJson(x))),
       );
 
   Map<String, dynamic> toJson() => {
@@ -56,8 +56,8 @@ class QueryString {
       };
 }
 
-class Response {
-  Response({
+class ResponseData {
+  ResponseData({
     required this.productId,
     required this.name,
     required this.summary,
@@ -123,7 +123,7 @@ class Response {
   ProductRelated productRelated;
   String detailUrl;
 
-  factory Response.fromJson(Map<String, dynamic> json) => Response(
+  factory ResponseData.fromJson(Map<String, dynamic> json) => ResponseData(
         productId: json["product_id"],
         name: json["name"],
         summary: json["summary"],

@@ -2,12 +2,12 @@ import 'dart:convert';
 
 import 'package:dio/dio.dart';
 import 'package:serbada/core/api/base_url.dart';
-import 'package:serbada/models/category/category.dart';
+import 'package:serbada/models/detailproducts/detail_products_model.dart';
 
 class DetailProductsApi {
   static String detailProductUrl = 'detail';
 
-  static Future<Category> getDetailProduct(String id) async {
+  static Future<DetailsProducts> getDetailProduct(String id) async {
     Dio dio = Dio();
     String url = '${BaseUrl.baseUrl}$detailProductUrl?product_id=$id';
     dio.options.headers['Accept'] = 'application/json';
@@ -16,6 +16,6 @@ class DetailProductsApi {
     Response response;
     //get request with dio
     response = await dio.get(url);
-    return Category.fromJson(json.decode(response.data));
+    return DetailsProducts.fromJson(json.decode(response.data));
   }
 }

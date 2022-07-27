@@ -10,11 +10,13 @@ import 'package:serbada/models/category/category.dart';
 import 'package:serbada/models/products_model.dart';
 import 'package:serbada/ui/common_widget/header/home_category.dart';
 import 'package:serbada/ui/common_widget/header/home_product.dart';
+import 'package:serbada/ui/detail_produk_view.dart';
 import 'package:serbada/ui/theme/theme.dart';
 
 import '../bottom_navbar.dart';
 
 class HomeView extends StatefulWidget {
+  // const HomeView({Key? key}) : super(key: key);
   const HomeView({Key? key}) : super(key: key);
 
   @override
@@ -23,6 +25,7 @@ class HomeView extends StatefulWidget {
 
 class HomeViewState extends State<HomeView> {
   bool isChecked = false;
+  int? id;
   int _current = 0;
   final CarouselController _controller = CarouselController();
   final List<String> imgList = [
@@ -37,6 +40,7 @@ class HomeViewState extends State<HomeView> {
   // TODO: Menggangti data menjadi variabel List of Widget null safety
 
   List<Widget>? myData;
+  // late final int id;
 
   get callbackFunction => null;
 
@@ -347,11 +351,23 @@ class HomeViewState extends State<HomeView> {
                                                 .map((e) => e.urlOriginals)
                                                 .toList()
                                                 .first;
-                                            return HomeProduct(
-                                              imageUrl: image.toString(),
-                                              hargaProduk:
-                                                  item.priceNormalRp.toString(),
-                                              nameProduk: item.name.toString(),
+                                            return InkWell(
+                                              onTap: () {
+                                                Navigator.push(
+                                                  context,
+                                                  MaterialPageRoute(
+                                                    builder: (context) =>
+                                                        DetailProdukView(id!),
+                                                  ),
+                                                );
+                                              },
+                                              child: HomeProduct(
+                                                imageUrl: image.toString(),
+                                                hargaProduk: item.priceNormalRp
+                                                    .toString(),
+                                                nameProduk:
+                                                    item.name.toString(),
+                                              ),
                                             );
                                           }).toList(),
                                         ),
