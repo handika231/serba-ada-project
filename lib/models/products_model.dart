@@ -1,3 +1,5 @@
+import 'package:flutter/src/material/ink_well.dart';
+
 class ProductsModel {
   int? version;
   QueryString? queryString;
@@ -231,6 +233,8 @@ class Results {
     data['detailUrl'] = detailUrl;
     return data;
   }
+
+  map(InkWell Function(dynamic item) param0) {}
 }
 
 class Gallery {

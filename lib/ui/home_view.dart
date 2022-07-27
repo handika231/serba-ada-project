@@ -40,9 +40,11 @@ class HomeViewState extends State<HomeView> {
   // TODO: Menggangti data menjadi variabel List of Widget null safety
 
   List<Widget>? myData;
-  // late final int id;
+  late final int productId;
 
   get callbackFunction => null;
+
+  // int? get Produkid => null;
 
   @override
   void initState() {
@@ -357,7 +359,8 @@ class HomeViewState extends State<HomeView> {
                                                   context,
                                                   MaterialPageRoute(
                                                     builder: (context) =>
-                                                        DetailProdukView(id!),
+                                                        DetailProdukView(
+                                                            productId),
                                                   ),
                                                 );
                                               },
@@ -371,114 +374,6 @@ class HomeViewState extends State<HomeView> {
                                             );
                                           }).toList(),
                                         ),
-                                        // Padding(
-                                        //   padding: const EdgeInsets.all(16.0),
-                                        //   child: Row(
-                                        //     children: const [
-                                        //       Flexible(
-                                        //         child: HomeProduct(
-                                        //             nameProduk: 'Baju',
-                                        //             hargaProduk: '220.000'),
-                                        //       ),
-                                        //       SizedBox(
-                                        //         width: 8,
-                                        //       ),
-                                        //       Flexible(
-                                        //         child: HomeProduct(
-                                        //             nameProduk: 'Baju',
-                                        //             hargaProduk: '220.000'),
-                                        //       ),
-                                        //       SizedBox(
-                                        //         width: 8,
-                                        //       ),
-                                        //       // HomeProduct(
-                                        //       //     nameProduk: 'Celana', hargaProduk: '120.000'),
-                                        //     ],
-                                        //   ),
-
-                                        //   // child: StaggeredGridView.countBuilder(
-                                        //   //   crossAxisCount: 3,
-                                        //   //   // itemCount: provider.daftarProdukModelData.length,
-                                        //   //   itemBuilder: (context, i) => const HomeProduct(
-                                        //   //     hargaProduk: '20.000',
-                                        //   //     nameProduk: 'Sepatu',
-                                        //   //   ),
-                                        //   //   staggeredTileBuilder: (i) => const StaggeredTile.fit(1),
-                                        //   // ),
-                                        // ),
-                                        // const SizedBox(
-                                        //   height: 10,
-                                        // ),
-                                        // Padding(
-                                        //   padding: const EdgeInsets.all(16.0),
-                                        //   child: Row(
-                                        //     children: const [
-                                        //       Flexible(
-                                        //         child: HomeProduct(
-                                        //             nameProduk: 'Baju',
-                                        //             hargaProduk: '220.000'),
-                                        //       ),
-                                        //       SizedBox(
-                                        //         width: 8,
-                                        //       ),
-                                        //       Flexible(
-                                        //         child: HomeProduct(
-                                        //             nameProduk: 'Baju',
-                                        //             hargaProduk: '220.000'),
-                                        //       ),
-                                        //       SizedBox(
-                                        //         width: 8,
-                                        //       ),
-                                        //       // HomeProduct(
-                                        //       //     nameProduk: 'Celana', hargaProduk: '120.000'),
-                                        //     ],
-                                        //   ),
-
-                                        //   // child: StaggeredGridView.countBuilder(
-                                        //   //   crossAxisCount: 3,
-                                        //   //   // itemCount: provider.daftarProdukModelData.length,
-                                        //   //   itemBuilder: (context, i) => const HomeProduct(
-                                        //   //     hargaProduk: '20.000',
-                                        //   //     nameProduk: 'Sepatu',
-                                        //   //   ),
-                                        //   //   staggeredTileBuilder: (i) => const StaggeredTile.fit(1),
-                                        //   // ),
-                                        // ),
-                                        // Padding(
-                                        //   padding: const EdgeInsets.all(16.0),
-                                        //   child: Row(
-                                        //     children: const [
-                                        //       Flexible(
-                                        //         child: HomeProduct(
-                                        //             nameProduk: 'Baju',
-                                        //             hargaProduk: '220.000'),
-                                        //       ),
-                                        //       SizedBox(
-                                        //         width: 8,
-                                        //       ),
-                                        //       Flexible(
-                                        //         child: HomeProduct(
-                                        //             nameProduk: 'Baju',
-                                        //             hargaProduk: '220.000'),
-                                        //       ),
-                                        //       SizedBox(
-                                        //         width: 8,
-                                        //       ),
-                                        //       // HomeProduct(
-                                        //       //     nameProduk: 'Celana', hargaProduk: '120.000'),
-                                        //     ],
-                                        //   ),
-
-                                        // child: StaggeredGridView.countBuilder(
-                                        //   crossAxisCount: 3,
-                                        //   // itemCount: provider.daftarProdukModelData.length,
-                                        //   itemBuilder: (context, i) => const HomeProduct(
-                                        //     hargaProduk: '20.000',
-                                        //     nameProduk: 'Sepatu',
-                                        //   ),
-                                        //   staggeredTileBuilder: (i) => const StaggeredTile.fit(1),
-                                        // ),
-                                        // ),
                                       ],
                                     );
                                   }

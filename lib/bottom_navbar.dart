@@ -21,7 +21,7 @@ class NavbarState extends State<Navbar> {
   final _pageOptions = [
     const HomeView(),
     const CategoryView(),
-    const BestSeller(),
+    const BestSellerView(),
     Profile(),
 
     // const PopularMoviesPage(),

@@ -1,16 +1,28 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:serbada/core/api/best_seller_api.dart';
+import 'package:serbada/core/api/category_products_api.dart';
+import 'package:serbada/provider/category_provider.dart';
+import 'package:serbada/ui/common_widget/header/category.dart';
 import 'package:serbada/ui/theme/theme.dart';
+import 'package:shimmer/shimmer.dart';
 
-import '../bottom_navbar.dart';
+import '../models/bestseller_model.dart';
+import '../models/category/category.dart';
+// import '../models/products_model.dart';
+import '../models/bestseller_model.dart';
+import '../models/products_model.dart';
+import 'common_widget/header/home_category.dart';
+import 'common_widget/header/home_product.dart';
 
-class BestSeller extends StatefulWidget {
-  const BestSeller({Key? key}) : super(key: key);
+class BestSellerView extends StatefulWidget {
+  const BestSellerView({Key? key}) : super(key: key);
 
   @override
-  State<BestSeller> createState() => BestSellerState();
+  State<BestSellerView> createState() => _BestSellerViewState();
 }
 
-class BestSellerState extends State<BestSeller> {
+class _BestSellerViewState extends State<BestSellerView> {
   bool isChecked = false;
 
   @override
@@ -21,27 +33,34 @@ class BestSellerState extends State<BestSeller> {
   @override
   Widget build(BuildContext context) {
     var screenSize = MediaQuery.of(context).size;
+    double widthContent;
     if (screenSize.width > 600) {
-    } else {}
+      widthContent = MediaQuery.of(context).size.width * 0.6;
+    } else {
+      widthContent = MediaQuery.of(context).size.width;
+    }
 
     return
-        // SafeArea(
-        //             child: Shimmer.fromColors(
-        //               baseColor: Colors.black26,
-        //               highlightColor: Colors.yellow,
-        //               child: const Center(
-        //                 child: Text(
-        //                   'Mohon Tunggu',
-        //                   textAlign: TextAlign.center,
-        //                   style: TextStyle(
-        //                     fontSize: 40.0,
-        //                     fontWeight: FontWeight.bold,
-        //                   ),
+        // Consumer<CategoryProvider>(
+        //   builder: (context, provider, _) => (provider.loading == true)
+        //       ?
+        //        SafeArea(
+        //           child: Shimmer.fromColors(
+        //             baseColor: Colors.black26,
+        //             highlightColor: Colors.yellow,
+        //             child: const Center(
+        //               child: Text(
+        //                 'Mohon Tunggu',
+        //                 textAlign: TextAlign.center,
+        //                 style: TextStyle(
+        //                   fontSize: 40.0,
+        //                   fontWeight: FontWeight.bold,
         //                 ),
         //               ),
         //             ),
-        //           )
-        //         :
+        //           ),
+        //         )
+        //       :
         Scaffold(
       resizeToAvoidBottomInset: false,
       body: SafeArea(
@@ -50,7 +69,7 @@ class BestSellerState extends State<BestSeller> {
           children: [
             Container(
               decoration: BoxDecoration(
-                color: AppColors.whiteColor,
+                color: AppColors.lightGrayColor,
                 boxShadow: [
                   BoxShadow(
                       color: Colors.grey.withOpacity(0.5),
@@ -68,7 +87,7 @@ class BestSellerState extends State<BestSeller> {
                   SizedBox(
                     width: double.infinity,
                     child: Text(
-                      "Serbada App",
+                      "Kategori",
                       style: AppTextStyle.boldTextStyle.copyWith(fontSize: 18),
                     ),
                   ),
@@ -81,23 +100,78 @@ class BestSellerState extends State<BestSeller> {
                 ],
               ),
             ),
-            Expanded(
-              child: RefreshIndicator(
-                onRefresh: () {
-                  return Navigator.pushReplacement(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => const Navbar(),
-                      ));
+            SizedBox(
+              child: FutureBuilder(
+                future: BestSellerApi.getBestSeller(),
+                builder: (BuildContext context, AsyncSnapshot snapshot) {
+                  if (snapshot.data == null ||
+                      snapshot.connectionState == ConnectionState.waiting) {
+                    return const Center(
+                      child: CircularProgressIndicator(),
+                    );
+                  } else {
+                    List<ResultData> result = snapshot.data.response?.results;
+                    print(result.runtimeType);
+                    return Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.only(left: 16),
+                          child: Text(
+                            'Rekomendasi',
+                            style: AppTextStyle.boldTextStyle.copyWith(
+                              color: AppColors.orangeColor,
+                            ),
+                          ),
+                        ),
+                        const SizedBox(
+                          height: 20,
+                        ),
+                        GridView(
+                          shrinkWrap: true,
+                          physics: const NeverScrollableScrollPhysics(),
+                          gridDelegate:
+                              const SliverGridDelegateWithFixedCrossAxisCount(
+                            crossAxisCount: 2,
+                            childAspectRatio: 0.8,
+                            crossAxisSpacing: 16,
+                            mainAxisSpacing: 16,
+                          ),
+                          children: result.map((item) {
+                            // TODO: Mengambil gambar pertama dari gallery
+                            final image = item.gallery!
+                                .map((e) => e.urlOriginal)
+                                .toList()
+                                .first;
+                            return InkWell(
+                              // onTap: () {
+                              //   Navigator.push(
+                              //     context,
+                              //     MaterialPageRoute(
+                              //       builder: (context) =>
+                              //           DetailProdukView(productId),
+                              //     ),
+                              //   );
+                              // },
+
+                              child: HomeProduct(
+                                imageUrl: image.toString(),
+                                hargaProduk: item.priceNormalRp.toString(),
+                                nameProduk: item.name.toString(),
+                              ),
+                            );
+                          }).toList(),
+                        ),
+                      ],
+                    );
+                  }
                 },
-                child: const Padding(
-                    padding: EdgeInsets.fromLTRB(13, 13, 13, 0),
-                    child: Text('data seller')),
               ),
             ),
           ],
         ),
       ),
+      // ),
     );
   }
 }
